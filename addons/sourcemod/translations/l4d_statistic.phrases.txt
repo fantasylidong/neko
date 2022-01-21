@@ -1,0 +1,498 @@
+﻿"Phrases"
+{
+	"Tag"
+	{
+		"en" "[Statistics] "		
+		"ru" "[Статистика] "
+	}
+	"Welcome1"
+	{
+		"#format" "{1:s}"
+		"en" "The {1} position of the TOP has entered for clarification."		
+		"ru" "Зашел {1} позиция ТОП на уточнении."
+	}
+	"Welcome2"
+	{
+		"#format" "{1:s},{2:s},{3:i}"
+		"en" "Came [{1}] {2} - in the top position {3} place."
+		"ru" "Зашел [{1}] {2} - в топ позиция {3} место."
+	}
+	"ResetMyRank"
+	{
+		"en" "Your stats have been reset."
+		"ru" "Ваша статистика была сброшена."
+	}
+	"TopTitle"
+	{
+		"en" "TOP list selection"
+		"ru" "Выбор TOP листа"
+	}
+	"InfectedKills"
+	{
+		"en" "Zombie killer"
+		"ru" "Убийца зомби"
+	}
+	"MutantsKills"
+	{
+		"en" "Mutants killer"
+		"ru" "Убийца мутантов"
+	}
+	"TankKills"
+	{
+		"en" "Tank killer"
+		"ru" "Убийца танков"
+	}
+	"WitchKills"
+	{
+		"en" "Witch killer"
+		"ru" "Убийца ведьм"
+	}
+	"finalewin"
+	{
+		"en" "Finale Win"
+		"ru" "Финальных побед"
+	}
+	"gametime"
+	{
+		"en" "Game Time"
+		"ru" "Время игры"
+	}
+	"Nic"
+	{
+		"en" "Nic"
+		"ru" "Ник"
+	}
+	"AuthId"
+	{
+		"en" "Auth Id"
+		"ru" "Стим"
+	}
+	"Rank"
+	{
+		"en" "Rank"
+		"ru" "Звание"
+	}
+	"Position"
+	{
+		"en" "Position"
+		"ru" "Позиция"
+	}
+	"Companies"
+	{
+		"en" "Of companies"
+		"ru" "Компаний"
+	}
+	"Shots"
+	{
+		"en" "Shots"
+		"ru" "Выстрелов"
+	}
+	"Hit"
+	{
+		"en" "Hit"
+		"ru" "Попаданий"
+	}
+	"Played"
+	{
+		"en" "Played"
+		"ru" "Наиграно"
+	}
+	"Damage"
+	{
+		"en" "Damage dealt"
+		"ru" "Нанесено урона"
+	}
+	"Deads"
+	{
+		"en" "Deads"
+		"ru" "Смертей"
+	}
+	"OpenTop"
+	{
+		"en" "Open the top list"
+		"ru" "Открыть топ"
+	}
+	"Title"
+	{
+		"en" "Statistics"
+		"ru" "Статистика"
+	}
+	"Profile"
+	{
+		"en" "Profile Results"
+		"ru" "Результаты профиля"
+	}
+	"TOP"
+	{
+		"en" "-------- TOP --------"
+		"ru" "-------- ТОП --------"
+	}
+	"TitleHits"
+	{
+		"en" "-------- Show hits --------"
+		"ru" "-------- Попадания --------"
+	}
+	"NULL_HITBOX"
+	{
+		"en" "NULL HITBOX"
+		"ru" "NULL HITBOX"
+	}
+	"HEAD"
+	{
+		"en" "Head"
+		"ru" "Голова"
+	}
+	"CHEST"
+	{
+		"en" "Chest"
+		"ru" "Грудь"
+	}
+	"STOMACH"
+	{
+		"en" "Stomach"
+		"ru" "Живот"
+	}
+	"LEFT_ARM"
+	{
+		"en" "Left hand"
+		"ru" "Левая рука"
+	}
+	"RIGHT_ARM"
+	{
+		"en" "Right hand"
+		"ru" "Правая рука"
+	}
+	"LEFT_LEG"
+	{
+		"en" "Left leg"
+		"ru" "Левая нога"
+	}
+	"RIGHT_LEG"
+	{
+		"en" "Right leg"
+		"ru" "Правая нога"
+	}
+	"Accuracy"
+	{
+		"en" "Accuracy"
+		"ru" "Меткость"
+	}
+	"FewPlayers"
+	{
+		"#format" "{1:i},{2:i}"
+		"en" "On server {1} players, you need {2} players for statistics to work."
+		"ru" "На сервере {1} игрок(ов), нужно {2} игроков для работы статистики."
+	}
+	"AdminMenu"
+	{
+		"en" "Admin Menu"
+		"ru" "Админ меню"
+	}
+
+	"reset_player"
+	{
+		"en" "Reset player"
+		"ru" "Обнулить игрока"
+	}
+	"reset_all"
+	{
+		"en" "Reset all"
+		"ru" "Обнулить всех"
+	}
+	"AdminResetAllChat"
+	{
+		"en" "Server stats reset!"
+		"ru" "Статистика сервера сброшена!"
+	}
+	"AdminResetPlayerChat"
+	{
+		"en" "Player's stats have been reset!"
+		"ru" "Статистика игрока сброшена!"
+	}
+	"AdminTitle"
+	{
+		"en" "Select an action"
+		"ru" "Выберите действие"
+	}
+
+	"pistol"
+	{
+		"en" "Pistol"
+		"ru" "Пистолет"
+	}
+	"pistol_magnum"
+	{
+		"en" "Pistol magnum"
+		"ru" "Пистолет магнум"
+	}
+	"autoshotgun"
+	{
+		"en" "Automatic Shotgun"
+		"ru" "Автоматический дробовик"
+	}
+	"shotgun_chrome"
+	{
+		"en" "Chrome Shotgun"
+		"ru" "Хромированный дробовик"
+	}
+	"pumpshotgun"
+	{
+		"en" "Pump Shotgun"
+		"ru" "Помповый дробовик"
+	}
+	"shotgun_spas"
+	{
+		"en" "SPAS Shotgun"
+		"ru" "Дробовик СПАС"
+	}
+	"smg"
+	{
+		"en" "SMG"
+		"ru" "SMG"
+	}
+	"smg_mp5"
+	{
+		"en" "MP5"
+		"ru" "MP5"
+	}
+	"smg_silenced"
+	{
+		"en" "SMG (Silenced)"
+		"ru" "SMG c глушителем"
+	}
+	"rifle_ak47"
+	{
+		"en" "AK-47"
+		"ru" "AK-47"
+	}
+	"rifle_sg552"
+	{
+		"en" "SG552"
+		"ru" "SG552"
+	}
+	"rifle"
+	{
+		"en" "M16"
+		"ru" "M16"
+	}
+	"rifle_m60"
+	{
+		"en" "M60"
+		"ru" "M60"
+	}
+	"rifle_desert"
+	{
+		"en" "Combat Rifle"
+		"ru" "Боевая винтовка"
+	}
+	"hunting_rifle"
+	{
+		"en" "Hunting Rifle"
+		"ru" "Охотничье винтовка"
+	}
+	"sniper_military"
+	{
+		"en" "Sniper Rifle"
+		"ru" "Снайперская винтовка"
+	}
+	"sniper_awp"
+	{
+		"en" "AWP"
+		"ru" "AWP"
+	}
+	"sniper_scout"
+	{
+		"en" "Scout Sniper"
+		"ru" "Scout"
+	}
+	"weapon_grenade_launcher"
+	{
+		"en" "Grenade Launcher"
+		"ru" "Гранатомет"
+	}
+
+	"melee"
+	{
+		"en" "Melee"
+		"ru" "Ближний бой"
+	}
+	"frying_pan"
+	{
+		"en" "Frying Pan"
+		"ru" "Сковорода"
+	}
+	"electric_guitar"
+	{
+		"en" "Guitar"
+		"ru" "Электрогитара"
+	}
+	"katana"
+	{
+		"en" "Katana"
+		"ru" "Катана"
+	}
+	"machete"
+	{
+		"en" "Machete"
+		"ru" "Мачете"
+	}
+	"tonfa"
+	{
+		"en" "Nightstick"
+		"ru" "Дубинка"
+	}
+
+	"baseball_bat"
+	{
+		"en" "Baseball bat"
+		"ru" "Бейсбольная бита"
+	}
+	"cricket_bat"
+	{
+		"en" "Сricket bat"
+		"ru" "Бита для крикета"
+	}
+	"crowbar"
+	{
+		"en" "Сrowbar"
+		"ru" "Лом"
+	}
+	"fireaxe"
+	{
+		"en" "Fireaxe"
+		"ru" "Топор"
+	}
+	"knife"
+	{
+		"en" "Knife"
+		"ru" "Нож"
+	}
+
+	"molotov"
+	{
+		"en" "Threw a molotov"
+		"ru" "Кинул молотов"
+	}
+	"pipe_bomb"
+	{
+		"en" "Threw a bomb"
+		"ru" "Кинул бомбу"
+	}
+	"vomitjar"
+	{
+		"en" "Threw bile"
+		"ru" "Кинул желч"
+	}
+	"pain_pills"
+	{
+		"en" "Used pills"
+		"ru" "Использовал таблетки"
+	}
+	"adrenaline"
+	{
+		"en" "Used adrenaline"
+		"ru" "Использовал адреналин"
+	}
+	"defibrillator"
+	{
+		"en" "Used defibs"
+		"ru" "Использовал дефибы"
+	}
+	"first_aid_kit"
+	{
+		"en" "Used a pharmacy"
+		"ru" "Использовал аптеку"
+	}
+	"infected_death"
+	{
+		"en" "Killed by zombies"
+		"ru" "Убито зомби"
+	}
+	"tank_killed"
+	{
+		"en" "Killed tanks"
+		"ru" "Убито танков"
+	}
+	"boomer_exploded"
+	{
+		"en" "Bombers killed"
+		"ru" "Убито бомберов"
+	}
+	"hunter_headshot"
+	{
+		"en" "Hunters killed"
+		"ru" "Убито охотников"
+	}
+	"charger_killed"
+	{
+		"en" "Killed by thugs"
+		"ru" "Убито громил"
+	}
+	"spitter_killed"
+	{
+		"en" "Spitters killed"
+		"ru" "Убито плевальщиц"
+	}
+	"jockey_killed"
+	{
+		"en" "Jockeys killed"
+		"ru" "Убито жокеев"
+	}
+	"witch_killed"
+	{
+		"en" "Killed witch"
+		"ru" "Убито ведьм"
+	}
+	"survivor_killed"
+	{
+		"en" "Killed survivors"
+		"ru" "Убито выживших"
+	}
+
+	"OpenHits"
+	{
+		"en" "Hit information"
+		"ru" "Информация попаданий"
+	}
+	"OpenKills"
+	{
+		"en" "Murder info"
+		"ru" "Информация убийств"
+	}
+	"OpenWeaponFire"
+	{
+		"en" "Weapon information"
+		"ru" "Информация об оружии"
+	}
+	"ModularMenuTitle"
+	{
+		"en" "Modular Menu"
+		"ru" "Меню модулей"
+	}
+	"NotModular"
+	{
+		"en" "No modules to control"
+		"ru" "Нет модулей для управления"
+	}
+
+	"USECHAT"
+	{
+		"en" "No modules to control"
+		"ru" "Чат"
+	}
+	"ONOFFCHAT"
+	{
+		"en" "Activation"
+		"ru" "Активация"
+	}
+	"ON"
+	{
+		"en" "On"
+		"ru" "Включить"
+	}
+	"OFF"
+	{
+		"en" "Off"
+		"ru" "Выключить"
+	}
+}
