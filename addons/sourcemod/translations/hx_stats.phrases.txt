@@ -1,0 +1,528 @@
+﻿/* 
+	Following named colors are supported: {white} \x01, {cyan} \x03, {orange} \x04, {green} \x05
+*/
+
+"Phrases"
+{
+	"Infected+"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ru"		"{1} Зомби {orange}+{2}"
+		"en"		"{1} Zombie {orange}+{2}"
+		"chi"		"{1} 小僵尸 {orange}+{2}"
+	}
+	"min. in game+"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ru"		"{1} мин. в игре {orange}+{2}"
+		"en"		"{1} min. in game {orange}+{2}"
+		"chi"		"{1} 游戏时间（分钟） {orange}+{2}"
+	}
+	"Boomer+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Толстяк {orange}+{1}"
+		"en"		"Boomer {orange}+{1}"
+	}
+	"Smoker+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Курильщик {orange}+{1}"
+		"en"		"Smoker {orange}+{1}"
+	}
+	"Spitter+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Плевальщица {orange}+{1}"
+		"en"		"Spitter {orange}+{1}"
+	}
+	"Hunter+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Охотник {orange}+{1}"
+		"en"		"Hunter {orange}+{1}"
+	}
+	"Jockey+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Жокей {orange}+{1}"
+		"en"		"Jockey {orange}+{1}"
+	}
+	"Charger+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Громила {orange}+{1}"
+		"en"		"Charger {orange}+{1}"
+	}
+	"Tank+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Танк {orange}+{1}"
+		"en"		"Tank {orange}+{1}"
+	}
+	"TankSolo+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Танк в одиночку {orange}+{1}"
+		"en"		"Tank solo {orange}+{1}"
+	}
+	"Witch+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Ведьма {orange}+{1}"
+		"en"		"Witch {orange}+{1}"
+	}
+	"HeadShot+"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Бонус за выстрел в голову {orange}+{1}"
+		"en"		"Bonus for headshot {orange}+{1}"
+		"en"		"爆头奖励 {orange}+{1}"
+	}
+	"PenaltyDeath-"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Штраф за смерть {orange}{1}"
+		"en"		"Penalty for death {orange}{1}"
+		"chi"		"死亡处罚 {orange}{1}"
+	}
+	"PenaltyIncap-"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Штраф за инкап {orange}{1}"
+		"en"		"Penalty for incap {orange}{1}"
+		"chi"		"被控处罚 {orange}{1}"
+	}
+	"PenaltyFF-"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Штраф за огонь по своим {orange}{1}"
+		"en"		"Penalty for friendly fire {orange}{1}"
+		"chi"		"友伤处罚 {orange}{1}"
+	}
+	
+	"Infected"
+	{
+		"ru"		"Зомби"
+		"en"		"Zombies"
+	}
+	"Boomer"
+	{
+		"ru"		"Толстяков"
+		"en"		"Boomers"
+	}
+	"Smoker"
+	{
+		"ru"		"Курильщиков"
+		"en"		"Smokers"
+	}
+	"Spitter"
+	{
+		"ru"		"Плевальщиц"
+		"en"		"Spitters"
+	}
+	"Hunter"
+	{
+		"ru"		"Охотников"
+		"en"		"Hunters"
+	}
+	"Jockey"
+	{
+		"ru"		"Жокеев"
+		"en"		"Jockeys"
+	}
+	"Charger"
+	{
+		"ru"		"Громил"
+		"en"		"Chargers"
+	}
+	"Tank"
+	{
+		"ru"		"Танков"
+		"en"		"Tanks"
+	}
+	"Solo"
+	{
+		"ru"		"соло"
+		"en"		"solo"
+	}
+	"Witch"
+	{
+		"ru"		"Ведьм"
+		"en"		"Witches"
+	}
+	"HeadShot"
+	{
+		"ru"		"В голову"
+		"en"		"Headshots"
+		"chi"		"爆头"
+	}
+	"Penalty"
+	{
+		"ru"		"Штрафов"
+		"en"		"Penalties"
+		"chi"		"处罚"
+	}
+	
+	"Statistics"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Статистика {1}"
+		"en"		"{1} Statistics"
+		"chi"		"{1} 数据
+	}
+	"Rank"
+	{
+		"ru"		"Ранг"
+		"en"		"Rank"
+		"chi"		"排名"
+	}
+	"Top"
+	{
+		"ru"		"Чемпионы"
+		"en"		"Top"
+	}
+	"VIP: Top of week"
+	{
+		"ru"		"Лучшие за неделю"
+		"en"		"Top of week"
+		"chi"		"每周Top"
+	}
+	"VIP: Top of month"
+	{
+		"ru"		"Лучшие за месяц"
+		"en"		"Top of month"
+		"chi"		"每月Top"
+	}
+	"VIP: Top of last week"
+	{
+		"ru"		"VIP: лучшие за прошлую неделю"
+		"en"		"VIP: Top of last week"
+	}
+	"VIP: Top of last month"
+	{
+		"ru"		"VIP: лучшие за прошлый месяц"
+		"en"		"VIP: Top of last month"
+	}
+	"Description of points"
+	{
+		"ru"		"Сетка очков"
+		"en"		"Description of points"
+		"chi"		"分数解释"
+	}
+	"Scoring:"
+	{
+		"ru"		"Начисление очков:"
+		"en"		"Scoring:"
+	}
+	"1 Boomer - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Толстяк +{1} очко(в)"
+		"en"		"1 Boomer +{1} point(s)"
+	}
+	"1 Hunter - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Охотник +{1} очко(в)"
+		"en"		"1 Hunter +{1} point(s)"
+	}
+	"1 Smoker - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Курильщик +{1} очко(в)"
+		"en"		"1 Smoker +{1} point(s)"
+	}
+	"1 Tank - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Танк +{1} очко(в)"
+		"en"		"1 Tank +{1} point(s)"
+	}
+	"1 TankSolo - {} point(s)"
+	{
+		"#format"	"{1:i}{2:i}"
+		"ru"		"1 Танк / Соло +{1} / {2} очко(в)"
+		"en"		"1 Tank / Solo +{1} / {2} point(s)"
+	}
+	"1 Witch - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Ведьма +{1} очко(в)"
+		"en"		"1 Witch +{1} point(s)"
+	}
+	"1 Charger - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Громила +{1} очко(в)"
+		"en"		"1 Charger +{1} point(s)"
+	}
+	"1 Jockey - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Жокей +{1} очко(в)"
+		"en"		"1 Jockey +{1} point(s)"
+	}
+	"1 Spitter - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Плевальщица +{1} очко(в)"
+		"en"		"1 Spitter +{1} point(s)"
+	}
+	"1 Headshot - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"1 Выстрел в голову +{1} очко(в)"
+		"en"		"1 Headshot +{1} point(s)"
+	}
+	"{} zombies - {} point(s)"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ru"		"{1} зомби +{2} очко(в)"
+		"en"		"{1} zombies +{2} point(s)"
+	}
+	"{} min. in game - {} point(s)"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ru"		"{1} мин. в игре +{2} очко(в)"
+		"en"		"{1} min. in game +{2} point(s)"
+	}
+	"Penalty for death - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Штраф за смерть {1} очко(в)"
+		"en"		"Penalty for death {1} point(s)"
+	}
+	"Penalty for incap - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Штраф за инкап {1} очко(в)"
+		"en"		"Penalty for incap {1} point(s)"
+	}
+	"Penalty for ff - {} point(s)"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Штраф за урон 10 hp по своим {1} очко(в)"
+		"en"		"Penalty for damaging teammate's 10 hp {1} point(s)"
+	}
+	
+	"Close"
+	{
+		"ru"		"Закрыть"
+		"en"		"Close"
+	}
+	"Back"
+	{
+		"ru"		"Назад"
+		"en"		"Back"
+	}
+	"Other_Player_Points"
+	{
+		"ru"		"Ранг других игроков"
+		"en"		"Rank of other players"
+	}
+	"List_Players"
+	{
+		"ru"		"Выберите игрока, чтобы показать его очки:"
+		"en"		"Select player to show its points:"
+	}
+	
+	"all the time"
+	{
+		"ru"		"Лучшие за всё время"
+		"en"		"Top players of all the time"
+	}
+	"the month"
+	{
+		"ru"		"Лучшие за месяц"
+		"en"		"Top players of the month"
+	}
+	"the week"
+	{
+		"ru"		"Лучшие за неделю"
+		"en"		"Top players of the week"
+	}
+	"the last month"
+	{
+		"ru"		"Лучшие за прошлый месяц"
+		"en"		"Top players of the last month"
+	}
+	"the last week"
+	{
+		"ru"		"Лучшие за прошлую неделю"
+		"en"		"Top players of the last week"
+	}
+	"points"
+	{
+		"ru"		"очков"
+		"en"		"points"
+	}
+	"Wait for {} sec"
+	{
+		"#format"	"{1:i}"
+		"ru"		"[TOP] Подождите {1} сек."
+		"en"		"[TOP] Wait for {1} sec."
+	}
+	"M" // month
+	{
+		"ru"		"М"
+		"en"		"M"
+	}
+	"W" // week
+	{
+		"ru"		"Н"
+		"en"		"W"
+	}
+	"R" // round
+	{
+		"ru"		"Р"
+		"en"		"R"
+	}
+	"Won_VIP"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{cyan}[STATS] {orange}Поздравляем! {green}Вы выиграли VIP-статус: {orange}+{1} дней"
+		"en"		"{cyan}[STATS] {orange}Congratulations! {green}You won the vip status: {orange}+{1} days"
+	}
+	"Won_VIP_Hint"
+	{
+		"#format"	"{1:i}"
+		"ru"		">>> +{1} дней VIP <<<"
+		"en"		">>> +{1} days VIP <<<"
+	}
+	"Place"
+	{
+		"ru"		"Место"
+		"en"		"Place"
+	}
+	"No_Connection"
+	{
+		"ru"		"провалилось! Нет подключения к базе данных."
+		"en"		"failed! No connection to Database."
+	}
+	"Upgrade_Success"
+	{
+		"ru"		"Обновление базы данных завершилось успешно."
+		"en"		"Database upgrade is finished successfully."
+	}
+	"Upgrade_Failed"
+	{
+		"ru"		"Обновление базы данных ПРОВАЛИЛОСЬ !!!"
+		"en"		"Database upgrade is FAILED !!!"
+	}
+	"Upgrade_Process"
+	{
+		"ru"		"Обновление базы данных отправлено в обработку."
+		"en"		"Database upgrade sent for processing."
+	}
+	"Backup_Success"
+	{
+		"ru"		"Резервное копирование УСПЕШНО."
+		"en"		"Backup is success."
+	}
+	"Backup_FAILED"
+	{
+		"ru"		"Резервное копирование ПРОВАЛИЛОСЬ !!!"
+		"en"		"Backup is FAILED !!!"
+	}
+	"Revert_Success"
+	{
+		"ru"		"Восстановление УСПЕШНО."
+		"en"		"Revert is success."
+	}
+	"Revert_FAILED"
+	{
+		"ru"		"Восстановление ПРОВАЛИЛОСЬ !!!"
+		"en"		"Revert is FAILED !!!"
+	}
+	"Database_Created"
+	{
+		"ru"		"[HXStats] База данных создана.{orange} Пожалуйста, смените карту."
+		"en"		"[HXStats] Database table is created.{orange} Please, change the map."
+	}
+	"Usage"
+	{
+		"ru"		"Использование"
+		"en"		"Usage"
+	}
+	"No_SteamId"
+	{
+		"ru"		"Не могу получить StemId пользователя"
+		"en"		"Can't obtain SteamId of user"
+	}
+	"Move_FAILED"
+	{
+		"ru"		"Перенос очков ПРОВАЛИЛСЯ !!!"
+		"en"		"Moving points is FAILED !!!"
+	}
+	"Move_Success"
+	{
+		"ru"		"Перенос очков УСПЕШЕН."
+		"en"		"Moving points is success."
+	}
+	"days"
+	{
+		"ru"		"дней"
+		"en"		"days"
+	}
+	"Deleted_Players"
+	{
+		"ru"		"Всего удалено игроков"
+		"en"		"Total players deleted"
+	}
+	"DelPlayer_FAILED"
+	{
+		"ru"		"Удаление игрока ПРОВАЛИЛОСЬ !!!"
+		"en"		"Delete player is FAILED !!!"
+	}
+	"DelPlayer_Success"
+	{
+		"ru"		"Удаление игрока УСПЕШНО."
+		"en"		"Delete player is success."
+	}
+	"movepoints_hint"
+	{
+		"ru"		"где 1 - источник, 2 - назначение"
+		"en"		"where 1 - source, 2 - destination"
+	}
+	"LogPoints_Processing"
+	{
+		"ru"		"Сохранение лога очков отправлено в обработку."
+		"en"		"Log points sent for processing."
+	}
+	"Admins_unhidden"
+	{
+		"ru"		"Статистика всех админов теперь открыта в топе."
+		"en"		"Statistics of all admins are now unhidden in top."
+	}
+	"Connection_Live"
+	{
+		"ru"		"Подключение к базе данных держится."
+		"en"		"Database connection is live."
+	}
+	"Connection_Lost"
+	{
+		"ru"		"Подключение к базе данных ПОТЕРЯНО !!!"
+		"en"		"Database connection is LOST !!!"
+	}
+	"Join_Rank_InChat"
+	{
+		"ru"		"{orange}[{cyan}РАНГ{orange}] {orange}HX_PLACE {white}▪ {orange}HX_POINTS \n{cyan}за неделю: {orange}HX_PLACE_WEEK {white}▪ {orange}HX_POINTS_WEEK"
+		"en"		"{orange}[{cyan}RANK{orange}] {orange}HX_PLACE {white}▪ {orange}HX_POINTS \n{cyan}for week: {orange}HX_PLACE_WEEK {white}▪ {orange}HX_POINTS_WEEK"
+	}
+	"Join_Rank_InChatAll"
+	{
+		"ru"		"{orange}[{cyan}РАНГ{orange}] {green}PLAYER_NAME {white}▪ {orange}HX_PLACE {white}▪ {orange}HX_POINTS {cyan}"
+		"en"		"{orange}[{cyan}RANK{orange}] {green}PLAYER_NAME {white}▪ {orange}HX_PLACE {white}▪ {orange}HX_POINTS {cyan}"
+	}
+	"Join_Rank_InCenter"
+	{
+		"ru"		"[РАНГ] HX_PLACE ▪ HX_POINTS \n(за неделю: HX_PLACE_WEEK ▪ HX_POINTS_WEEK)"
+		"en"		"[RANK] HX_PLACE ▪ HX_POINTS \n(for week: HX_PLACE_WEEK ▪ HX_POINTS_WEEK)"
+	}
+	"Plugin_Disabled"
+	{
+		"ru"		"Статистика отключена в этом режиме!"
+		"en"		"Statistics is disabled in this mode!"
+	}
+}
