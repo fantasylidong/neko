@@ -6769,8 +6769,8 @@ DisplayYesNoPanel(client, const String:title[], MenuHandler:handler, delay=30)
 
 	SetPanelTitle(panel, title);
 
-	DrawPanelItem(panel, "Yes");
-	DrawPanelItem(panel, "No");
+	DrawPanelItem(panel, "是");
+	DrawPanelItem(panel, "否");
 
 	SendPanelToClient(panel, client, handler, delay);
 	CloseHandle(panel);
@@ -7014,7 +7014,7 @@ public Action:cmd_ShowRankMenu(client, args)
 	if (client <= 0)
 	{
 		if (client == 0)
-			PrintToConsole(0, "[RANK] You must be ingame to operate rankmenu.");
+			PrintToConsole(0, "[RANK] 你必须在游戏中才能操作排名榜单");
 
 		return Plugin_Handled;
 	}
@@ -7042,30 +7042,30 @@ public DisplayRankMenu(client)
 	SetMenuExitBackButton(menu, false);
 	SetMenuExitButton(menu, true);
 
-	AddMenuItem(menu, "rank", "Show my rank");
-	AddMenuItem(menu, "top10", "Show top 10");
-	AddMenuItem(menu, "top10ppm", "Show top 10 PPM");
-	AddMenuItem(menu, "nextrank", "Show my next rank");
-	AddMenuItem(menu, "showtimer", "Show current timer");
-	AddMenuItem(menu, "showrank", "Show others rank");
-	AddMenuItem(menu, "showppm", "Show others PPM");
+	AddMenuItem(menu, "排名", "Show my rank");
+	AddMenuItem(menu, "top10玩家", "Show top 10");
+	AddMenuItem(menu, "top10ppm玩家", "Show top 10 PPM");
+	AddMenuItem(menu, "更新排名", "Show my next rank");
+	AddMenuItem(menu, "显示时间", "Show current timer");
+	AddMenuItem(menu, "他人rank排名", "Show others rank");
+	AddMenuItem(menu, "他人ppm排名", "Show others PPM");
 	if (GetConVarBool(cvar_EnableRankVote) && IsTeamGamemode())
 	{
 		AddMenuItem(menu, "rankvote", "Vote for team shuffle by PPM");
 	}
-	AddMenuItem(menu, "timedmaps", "Show all map timings");
+	AddMenuItem(menu, "地图时间统计", "Show all map timings");
 	if (IsSingleTeamGamemode())
 	{
-		AddMenuItem(menu, "maptimes", "Show current map timings");
+		AddMenuItem(menu, "当前地图统计", "Show current map timings");
 	}
 	if (GetConVarInt(cvar_AnnounceMode))
 	{
-		AddMenuItem(menu, "showsettings", "Modify rank settings");
+		AddMenuItem(menu, "插件提示设置", "Modify rank settings");
 	}
 	//AddMenuItem(menu, "showmaptimes", "Show others current map timings");
 
 	Format(Title, sizeof(Title), "About %s", PLUGIN_NAME);
-	AddMenuItem(menu, "rankabout", Title);
+	AddMenuItem(menu, "rank说明", Title);
 
 	DisplayMenu(menu, client, 30);
 
@@ -7356,21 +7356,21 @@ public DisplayNextRank(client)
 	new Handle:NextRankPanel = CreatePanel();
 	new String:Value[MAX_LINE_WIDTH];
 
-	SetPanelTitle(NextRankPanel, "Next Rank:");
+	SetPanelTitle(NextRankPanel, "更新后榜单:");
 
 	if (ClientNextRank[client])
 	{
-		Format(Value, sizeof(Value), "Points required: %i", ClientNextRank[client]);
+		Format(Value, sizeof(Value), "已获得分数: %i", ClientNextRank[client]);
 		DrawPanelText(NextRankPanel, Value);
 
-		Format(Value, sizeof(Value), "Current rank: %i", ClientRank[client]);
+		Format(Value, sizeof(Value), "当前排名: %i", ClientRank[client]);
 		DrawPanelText(NextRankPanel, Value);
 	}
 	else
-		DrawPanelText(NextRankPanel, "You are 1st");
+		DrawPanelText(NextRankPanel, "你目前位于于第一名");
 
-	DrawPanelItem(NextRankPanel, "More...");
-	DrawPanelItem(NextRankPanel, "Close");
+	DrawPanelItem(NextRankPanel, "更多...");
+	DrawPanelItem(NextRankPanel, "关闭");
 	SendPanelToClient(NextRankPanel, client, NextRankPanelHandler, 30);
 	CloseHandle(NextRankPanel);
 }
@@ -7396,29 +7396,29 @@ public DisplayNextRankFull(Handle:owner, Handle:hndl, const String:error[], any:
 	new Handle:NextRankPanel = CreatePanel();
 	new String:Value[MAX_LINE_WIDTH];
 
-	SetPanelTitle(NextRankPanel, "Next Rank:");
+	SetPanelTitle(NextRankPanel, "更新后的榜单:");
 
 	if (ClientNextRank[client])
 	{
-		Format(Value, sizeof(Value), "Points required: %i", ClientNextRank[client]);
+		Format(Value, sizeof(Value), "已获得分数: %i", ClientNextRank[client]);
 		DrawPanelText(NextRankPanel, Value);
 
-		Format(Value, sizeof(Value), "Current rank: %i", ClientRank[client]);
+		Format(Value, sizeof(Value), "当前排名: %i", ClientRank[client]);
 		DrawPanelText(NextRankPanel, Value);
 	}
 	else
-		DrawPanelText(NextRankPanel, "You are 1st");
+		DrawPanelText(NextRankPanel, "你目前位于于第一名");
 
 	while (SQL_FetchRow(hndl))
 	{
 		SQL_FetchString(hndl, 0, Name, sizeof(Name));
 		Points = SQL_FetchInt(hndl, 1);
 
-		Format(Value, sizeof(Value), "%i points: %s", Points, Name);
+		Format(Value, sizeof(Value), "%i 分数: %s", Points, Name);
 		DrawPanelText(NextRankPanel, Value);
 	}
 
-	DrawPanelItem(NextRankPanel, "Close");
+	DrawPanelItem(NextRankPanel, "关闭");
 	SendPanelToClient(NextRankPanel, client, NextRankFullPanelHandler, 30);
 	CloseHandle(NextRankPanel);
 }
@@ -7465,57 +7465,57 @@ public DisplayRank(Handle:owner, Handle:hndl, const String:error[], any:client)
 	new String:URL[MAX_LINE_WIDTH];
 
 	GetConVarString(cvar_SiteURL, URL, sizeof(URL));
-	new Float:HeadshotRatio = Headshots == 0 ? 0.00 : 0/(float(Headshots), float(InfectedKilled))*100;
+	new Float:HeadshotRatio = Headshots == 0 ? 0.00 : float(Headshots)/float(InfectedKilled)*100;
 
-	Format(Value, sizeof(Value), "Ranking of %s" , Name);
+	Format(Value, sizeof(Value), "%s的排名" , Name);
 	SetPanelTitle(RankPanel, Value);
 
-	Format(Value, sizeof(Value), "Rank: %i of %i" , ClientRank[client], RankTotal);
+	Format(Value, sizeof(Value), "排名: %i  (共%i)" , ClientRank[client], RankTotal);
 	DrawPanelText(RankPanel, Value);
 
 	if (!InvalidGameMode())
 	{
-		Format(Value, sizeof(Value), "%s Rank: %i of %i" ,CurrentGamemodeLabel , ClientGameModeRank[client], GameModeRankTotal);
+		Format(Value, sizeof(Value), "%s 排名: %i (共%i)" ,CurrentGamemodeLabel , ClientGameModeRank[client], GameModeRankTotal);
 		DrawPanelText(RankPanel, Value);
 	}
 
 	if (Playtime > 60)
 	{
-		Format(Value, sizeof(Value), "Playtime: %.2f hours" , 0/(float(Playtime), 60.0));
+		Format(Value, sizeof(Value), "游玩时间: %.2f 小时" , float(Playtime)/ 60.0);
 		DrawPanelText(RankPanel, Value);
 	}
 	else
 	{
-		Format(Value, sizeof(Value), "Playtime: %i min" , Playtime);
+		Format(Value, sizeof(Value), "游玩时间: %i 分钟" , Playtime);
 		DrawPanelText(RankPanel, Value);
 	}
 
-	Format(Value, sizeof(Value), "Points: %i" , Points);
+	Format(Value, sizeof(Value), "目前分数: %i" , Points);
 	DrawPanelText(RankPanel, Value);
 
-	Format(Value, sizeof(Value), "PPM: %.2f" , PPM);
+	Format(Value, sizeof(Value), "每分钟获取分数: %.2f" , PPM);
 	DrawPanelText(RankPanel, Value);
 
-	Format(Value, sizeof(Value), "Infected Killed: %i" , InfectedKilled);
+	Format(Value, sizeof(Value), "消灭的厨余: %i" , InfectedKilled);
 	DrawPanelText(RankPanel, Value);
 
-	Format(Value, sizeof(Value), "Survivors Killed: %i" , SurvivorsKilled);
+	Format(Value, sizeof(Value), "杀死的生还者: %i" , SurvivorsKilled);
 	DrawPanelText(RankPanel, Value);
 
-	Format(Value, sizeof(Value), "Headshots: %i" , Headshots);
+	Format(Value, sizeof(Value), "爆头数量: %i" , Headshots);
 	DrawPanelText(RankPanel, Value);
 
-	Format(Value, sizeof(Value), "Headshot Ratio: %.2f \%" , HeadshotRatio);
+	Format(Value, sizeof(Value), "爆头比率: %.2f \%" , HeadshotRatio);
 	DrawPanelText(RankPanel, Value);
 
 	if (!StrEqual(URL, "", false))
 	{
-		Format(Value, sizeof(Value), "For full stats visit %s", URL);
+		Format(Value, sizeof(Value), "完整数据可以在 %s 查看", URL);
 		DrawPanelText(RankPanel, Value);
 	}
 
 	//DrawPanelItem(RankPanel, "Next Rank");
-	DrawPanelItem(RankPanel, "Close");
+	DrawPanelItem(RankPanel, "关闭");
 	SendPanelToClient(RankPanel, client, RankPanelHandler, 30);
 	CloseHandle(RankPanel);
 }
@@ -8073,9 +8073,9 @@ public CreateTimedMapsMenu(Handle:owner, Handle:hndl, const String:error[], any:
 	if (SQL_GetRowCount(hndl) <= 0)
 	{
 		new Handle:TimedMapsPanel = CreatePanel();
-		SetPanelTitle(TimedMapsPanel, "Timed Maps:");
+		SetPanelTitle(TimedMapsPanel, "地图玩过的时间:");
 
-		DrawPanelText(TimedMapsPanel, "There are no recorded map timings!");
+		DrawPanelText(TimedMapsPanel, "这地图还没被玩过!");
 		DrawPanelItem(TimedMapsPanel, "Close");
 
 		SendPanelToClient(TimedMapsPanel, client, TimedMapsPanelHandler, 30);
@@ -8210,9 +8210,9 @@ public CreateTimedMapsMenu2(Handle:owner, Handle:hndl, const String:error[], any
 	if (SQL_GetRowCount(hndl) <= 0)
 	{
 		new Handle:TimedMapsPanel = CreatePanel();
-		SetPanelTitle(TimedMapsPanel, "Timed Maps:");
+		SetPanelTitle(TimedMapsPanel, "模式时间:");
 
-		DrawPanelText(TimedMapsPanel, "There are no recorded times for this gamemode!");
+		DrawPanelText(TimedMapsPanel, "这模式还没被玩过!");
 		DrawPanelItem(TimedMapsPanel, "Close");
 
 		SendPanelToClient(TimedMapsPanel, client, TimedMapsPanelHandler, 30);
@@ -8353,7 +8353,7 @@ public CreateTimedMapsMenu3(Handle:owner, Handle:hndl, const String:error[], any
 		new Handle:TimedMapsPanel = CreatePanel();
 		SetPanelTitle(TimedMapsPanel, "Timed Maps:");
 
-		DrawPanelText(TimedMapsPanel, "There are no recorded times for this map!");
+		DrawPanelText(TimedMapsPanel, "这地图还没被玩过!");
 		DrawPanelItem(TimedMapsPanel, "Close");
 
 		SendPanelToClient(TimedMapsPanel, client, TimedMapsPanelHandler, 30);
@@ -8612,20 +8612,20 @@ public DisplayAboutPanel(client)
 
 	new Handle:panel = CreatePanel();
 
-	Format(Value, sizeof(Value), "About %s:", PLUGIN_NAME);
+	Format(Value, sizeof(Value), "关于 %s:", PLUGIN_NAME);
 	SetPanelTitle(panel, Value);
 
-	Format(Value, sizeof(Value), "Version: %s", PLUGIN_VERSION);
+	Format(Value, sizeof(Value), "版本: %s", PLUGIN_VERSION);
 	DrawPanelText(panel, Value);
 
-	Format(Value, sizeof(Value), "Author: %s", "Mikko Andersson (muukis)");
+	Format(Value, sizeof(Value), "作者: %s", "Mikko Andersson (muukis) translator:东");
 	DrawPanelText(panel, Value);
 
-	Format(Value, sizeof(Value), "Description: %s", "Record player statistics.");
+	Format(Value, sizeof(Value), "描述: %s", "记录玩家的游戏记录.");
 	DrawPanelText(panel, Value);
 
-	DrawPanelItem(panel, "Back");
-	DrawPanelItem(panel, "Close");
+	DrawPanelItem(panel, "后退");
+	DrawPanelItem(panel, "关闭");
 
 	SendPanelToClient(panel, client, AboutPanelHandler, 30);
 	CloseHandle(panel);
@@ -8638,13 +8638,13 @@ public DisplaySettingsPanel(client)
 
 	new Handle:panel = CreatePanel();
 
-	Format(Value, sizeof(Value), "%s Settings:", PLUGIN_NAME);
+	Format(Value, sizeof(Value), "%s 设置:", PLUGIN_NAME);
 	SetPanelTitle(panel, Value);
 
-	DrawPanelItem(panel, (ClientRankMute[client] ? "Unmute (Currently: Muted)" : "Mute (Currently: Not muted)"));
+	DrawPanelItem(panel, (ClientRankMute[client] ? "解除rank提示禁用 (当前状态: 已禁用)" : "禁用rank提示 (当前状态: 未禁用)"));
 
-	DrawPanelItem(panel, "Back");
-	DrawPanelItem(panel, "Close");
+	DrawPanelItem(panel, "后退");
+	DrawPanelItem(panel, "关闭");
 
 	SendPanelToClient(panel, client, SettingsPanelHandler, 30);
 	CloseHandle(panel);
@@ -8662,7 +8662,7 @@ public DisplayTop10(Handle:owner, Handle:hndl, const String:error[], any:client)
 	new String:Name[32];
 
 	new Handle:Top10Panel = CreatePanel();
-	SetPanelTitle(Top10Panel, "Top 10 Players");
+	SetPanelTitle(Top10Panel, "Top 10 玩家");
 
 	while (SQL_FetchRow(hndl))
 	{
@@ -8693,7 +8693,7 @@ public DisplayTop10PPM(Handle:owner, Handle:hndl, const String:error[], any:clie
 	decl String:Name[32], String:Disp[MAX_LINE_WIDTH];
 
 	new Handle:TopPPMPanel = CreatePanel();
-	SetPanelTitle(TopPPMPanel, "Top 10 PPM Players");
+	SetPanelTitle(TopPPMPanel, "Top 10 PPM 玩家");
 
 	while (SQL_FetchRow(hndl))
 	{
