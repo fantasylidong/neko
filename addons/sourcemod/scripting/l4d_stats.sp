@@ -705,13 +705,13 @@ public OnPluginStart()
 
 	// Infected point Cvars
 	cvar_Infected = CreateConVar("l4d_stats_infected", "1", "Base score for killing a Common Infected", 0, true, 1.0);
-	cvar_Hunter = CreateConVar("l4d_stats_hunter", "2", "Base score for killing a Hunter", 0, true, 1.0);
+	cvar_Hunter = CreateConVar("l4d_stats_hunter", "3", "Base score for killing a Hunter", 0, true, 1.0);
 	cvar_Smoker = CreateConVar("l4d_stats_smoker", "3", "Base score for killing a Smoker", 0, true, 1.0);
-	cvar_Boomer = CreateConVar("l4d_stats_boomer", "5", "Base score for killing a Boomer", 0, true, 1.0);
-	cvar_Spitter = CreateConVar("l4d_stats_spitter", "5", "[L4D2] Base score for killing a Spitter", 0, true, 1.0);
-	cvar_Jockey = CreateConVar("l4d_stats_jockey", "5", "[L4D2] Base score for killing a Jockey", 0, true, 1.0);
+	cvar_Boomer = CreateConVar("l4d_stats_boomer", "2", "Base score for killing a Boomer", 0, true, 1.0);
+	cvar_Spitter = CreateConVar("l4d_stats_spitter", "3", "[L4D2] Base score for killing a Spitter", 0, true, 1.0);
+	cvar_Jockey = CreateConVar("l4d_stats_jockey", "4", "[L4D2] Base score for killing a Jockey", 0, true, 1.0);
 	cvar_Charger = CreateConVar("l4d_stats_charger", "5", "[L4D2] Base score for killing a Charger", 0, true, 1.0);
-	cvar_InfectedDamage = CreateConVar("l4d_stats_infected_damage", "2", "The amount of damage inflicted to Survivors to earn 1 point", 0, true, 1.0);
+	cvar_InfectedDamage = CreateConVar("l4d_stats_infected_damage", "1", "The amount of damage inflicted to Survivors to earn 1 point", 0, true, 1.0);
 
 	// Misc personal gain Cvars
 	cvar_Pills = CreateConVar("l4d_stats_pills", "15", "Base score for giving Pills to a friendly", 0, true, 1.0);
@@ -719,32 +719,32 @@ public OnPluginStart()
 	cvar_Medkit = CreateConVar("l4d_stats_medkit", "20", "Base score for using a Medkit on a friendly", 0, true, 1.0);
 	cvar_Defib = CreateConVar("l4d_stats_defib", "20", "[L4D2] Base score for using a Defibrillator on a friendly", 0, true, 1.0);
 	cvar_SmokerDrag = CreateConVar("l4d_stats_smokerdrag", "5", "Base score for saving a friendly from a Smoker Tongue Drag", 0, true, 1.0);
-	cvar_JockeyRide = CreateConVar("l4d_stats_jockeyride", "10", "[L4D2] Base score for saving a friendly from a Jockey Ride", 0, true, 1.0);
+	cvar_JockeyRide = CreateConVar("l4d_stats_jockeyride", "5", "[L4D2] Base score for saving a friendly from a Jockey Ride", 0, true, 1.0);
 	cvar_ChargerPlummel = CreateConVar("l4d_stats_chargerplummel", "10", "[L4D2] Base score for saving a friendly from a Charger Plummel", 0, true, 1.0);
 	cvar_ChargerCarry = CreateConVar("l4d_stats_chargercarry", "15", "[L4D2] Base score for saving a friendly from a Charger Carry", 0, true, 1.0);
-	cvar_ChokePounce = CreateConVar("l4d_stats_chokepounce", "10", "Base score for saving a friendly from a Hunter Pounce / Smoker Choke", 0, true, 1.0);
-	cvar_Revive = CreateConVar("l4d_stats_revive", "15", "Base score for Revive a friendly from Incapacitated state", 0, true, 1.0);
+	cvar_ChokePounce = CreateConVar("l4d_stats_chokepounce", "5", "Base score for saving a friendly from a Hunter Pounce / Smoker Choke", 0, true, 1.0);
+	cvar_Revive = CreateConVar("l4d_stats_revive", "10", "Base score for Revive a friendly from Incapacitated state", 0, true, 1.0);
 	cvar_Rescue = CreateConVar("l4d_stats_rescue", "10", "Base score for Rescue a friendly from a closet", 0, true, 1.0);
 	cvar_Protect = CreateConVar("l4d_stats_protect", "3", "Base score for Protect a friendly in combat", 0, true, 1.0);
-	cvar_PlayerLedgeSuccess = CreateConVar("l4d_stats_ledgegrap", "15", "Base score for causing a survivor to grap a ledge", 0, true, 1.0);
+	cvar_PlayerLedgeSuccess = CreateConVar("l4d_stats_ledgegrap", "20", "Base score for causing a survivor to grap a ledge", 0, true, 1.0);
 	cvar_Matador = CreateConVar("l4d_stats_matador", "30", "[L4D2] Base score for killing a charging Charger with a melee weapon", 0, true, 1.0);
 	cvar_WitchCrowned = CreateConVar("l4d_stats_witchcrowned", "30", "Base score for Crowning a Witch", 0, true, 1.0);
 
 	// Team gain Cvars
-	cvar_Tank = CreateConVar("l4d_stats_tank", "25", "Base team score for killing a Tank", 0, true, 1.0);
-	cvar_Panic = CreateConVar("l4d_stats_panic", "25", "Base team score for surviving a Panic Event with no Incapacitations", 0, true, 1.0);
-	cvar_BoomerMob = CreateConVar("l4d_stats_boomermob", "10", "Base team score for surviving a Boomer Mob with no Incapacitations", 0, true, 1.0);
-	cvar_SafeHouse = CreateConVar("l4d_stats_safehouse", "10", "Base score for reaching a Safe House", 0, true, 1.0);
-	cvar_Witch = CreateConVar("l4d_stats_witch", "10", "Base score for Not Disturbing a Witch", 0, true, 1.0);
-	cvar_VictorySurvivors = CreateConVar("l4d_stats_campaign", "5", "Base score for Completing a Campaign", 0, true, 1.0);
-	cvar_VictoryInfected = CreateConVar("l4d_stats_infected_win", "30", "Base victory score for Infected Team", 0, true, 1.0);
+	cvar_Tank = CreateConVar("l4d_stats_tank", "40", "Base team score for killing a Tank", 0, true, 1.0);
+	cvar_Panic = CreateConVar("l4d_stats_panic", "5", "Base team score for surviving a Panic Event with no Incapacitations", 0, true, 1.0);
+	cvar_BoomerMob = CreateConVar("l4d_stats_boomermob", "5", "Base team score for surviving a Boomer Mob with no Incapacitations", 0, true, 1.0);
+	cvar_SafeHouse = CreateConVar("l4d_stats_safehouse", "25", "Base score for reaching a Safe House", 0, true, 1.0);
+	cvar_Witch = CreateConVar("l4d_stats_witch", "5", "Base score for Not Disturbing a Witch", 0, true, 1.0);
+	cvar_VictorySurvivors = CreateConVar("l4d_stats_campaign", "35", "Base score for Completing a Campaign", 0, true, 1.0);
+	cvar_VictoryInfected = CreateConVar("l4d_stats_infected_win", "25", "Base victory score for Infected Team", 0, true, 1.0);
 
 	// Point loss Cvars
 	cvar_FFire = CreateConVar("l4d_stats_ffire", "25", "Base score for Friendly Fire", 0, true, 1.0);
 	cvar_FIncap = CreateConVar("l4d_stats_fincap", "75", "Base score for a Friendly Incap", 0, true, 1.0);
 	cvar_FKill = CreateConVar("l4d_stats_fkill", "250", "Base score for a Friendly Kill", 0, true, 1.0);
 	cvar_InSafeRoom = CreateConVar("l4d_stats_insaferoom", "5", "Base score for letting Infected in the Safe Room", 0, true, 1.0);
-	cvar_Restart = CreateConVar("l4d_stats_restart", "100", "Base score for a Round Restart", 0, true, 1.0);
+	cvar_Restart = CreateConVar("l4d_stats_restart", "200", "Base score for a Round Restart", 0, true, 1.0);
 	cvar_MedkitUsedPointPenalty = CreateConVar("l4d_stats_medkitpenalty", "0.1", "Score reduction for all Survivor earned points for each used Medkit (Formula: Score = NormalPoints * (1 - MedkitsUsed * MedkitPenalty))", 0, true, 0.0, true, 0.5);
 	cvar_MedkitUsedPointPenaltyMax = CreateConVar("l4d_stats_medkitpenaltymax", "1.0", "Maximum score reduction (the score reduction will not go over this value when a Medkit is used)", 0, true, 0.0, true, 1.0);
 	cvar_MedkitUsedFree = CreateConVar("l4d_stats_medkitpenaltyfree", "0", "Team Survivors can use this many Medkits for free without any reduction to the score", 0, true, 0.0);
@@ -754,8 +754,8 @@ public OnPluginStart()
 	cvar_BotScoreMultiplier = CreateConVar("l4d_stats_botscoremultiplier", "1.0", "Multiplier to use when receiving bot related score penalty. 0 = Disable", 0, true, 0.0);
 
 	// Survivor point Cvars
-	cvar_SurvivorDeath = CreateConVar("l4d_stats_survivor_death", "40", "Base score for killing a Survivor", 0, true, 1.0);
-	cvar_SurvivorIncap = CreateConVar("l4d_stats_survivor_incap", "15", "Base score for incapacitating a Survivor", 0, true, 1.0);
+	cvar_SurvivorDeath = CreateConVar("l4d_stats_survivor_death", "50", "Base score for killing a Survivor", 0, true, 1.0);
+	cvar_SurvivorIncap = CreateConVar("l4d_stats_survivor_incap", "25", "Base score for incapacitating a Survivor", 0, true, 1.0);
 
 	// Hunter point Cvars
 	cvar_HunterPerfectPounceDamage = CreateConVar("l4d_stats_perfectpouncedamage", "25", "The amount of damage from a pounce to earn Perfect Pounce (Death From Above) success points", 0, true, 1.0);
@@ -782,8 +782,8 @@ public OnPluginStart()
 	cvar_BoomerPerfectSuccess = CreateConVar("l4d_stats_boomerperfectsuccess", "30", "Base score for a successful Boomer Perfect Vomit", 0, true, 1.0);
 
 	// Tank point Cvars
-	cvar_TankDamageCap = CreateConVar("l4d_stats_tankdmgcap", "500", "Maximum inflicted damage done by Tank to earn Infected damagepoints", 0, true, 150.0);
-	cvar_TankDamageTotal = CreateConVar("l4d_stats_bulldozer", "200", "Damage inflicted by Tank to earn Bulldozer Award and success points", 0, true, 200.0);
+	cvar_TankDamageCap = CreateConVar("l4d_stats_tankdmgcap", "800", "Maximum inflicted damage done by Tank to earn Infected damagepoints", 0, true, 150.0);
+	cvar_TankDamageTotal = CreateConVar("l4d_stats_bulldozer", "500", "Damage inflicted by Tank to earn Bulldozer Award and success points", 0, true, 200.0);
 	cvar_TankDamageTotalSuccess = CreateConVar("l4d_stats_bulldozersuccess", "50", "Base score for Bulldozer Award", 0, true, 1.0);
 	cvar_TankThrowRockSuccess = CreateConVar("l4d_stats_tankthrowrocksuccess", "5", "Base score for a Tank thrown rock hit", 0, true, 0.0);
 
@@ -963,7 +963,7 @@ public OnPluginStart()
 	}
 
 	// Sounds
-	if (!IsSoundPrecached(SOUND_RANKVOTE))
+	if (EnableSounds_Rankvote)
 	{
 		EnableSounds_Rankvote = PrecacheSound(SOUND_RANKVOTE); // Sound from rankvote team switch
 	}
@@ -972,7 +972,7 @@ public OnPluginStart()
 		EnableSounds_Rankvote = true;
 	}
 
-	if (!IsSoundPrecached(StatsSound_MapTime_Start))
+	if (EnableSounds_Maptime_Start)
 	{
 		EnableSounds_Maptime_Start = PrecacheSound(StatsSound_MapTime_Start); // Sound map timer start
 	}
@@ -981,7 +981,7 @@ public OnPluginStart()
 		EnableSounds_Maptime_Start = true;
 	}
 
-	if (!IsSoundPrecached(StatsSound_MapTime_Improve))
+	if (EnableSounds_Maptime_Improve)
 	{
 		EnableSounds_Maptime_Improve = PrecacheSound(StatsSound_MapTime_Improve); // Sound from improving personal map timing
 	}
@@ -990,7 +990,7 @@ public OnPluginStart()
 		EnableSounds_Maptime_Improve = true;
 	}
 
-	if (!IsSoundPrecached(StatsSound_Rankmenu_Show))
+	if (EnableSounds_Rankmenu_Show)
 	{
 		EnableSounds_Rankmenu_Show = PrecacheSound(StatsSound_Rankmenu_Show); // Sound from showing the rankmenu
 	}
@@ -999,7 +999,7 @@ public OnPluginStart()
 		EnableSounds_Rankmenu_Show = true;
 	}
 
-	if (!IsSoundPrecached(StatsSound_Boomer_Vomit))
+	if (EnableSounds_Boomer_Vomit)
 	{
 		EnableSounds_Boomer_Vomit = PrecacheSound(StatsSound_Boomer_Vomit); // Sound from a successful boomer vomit (Perfect Blindness)
 	}
@@ -1008,7 +1008,7 @@ public OnPluginStart()
 		EnableSounds_Boomer_Vomit = true;
 	}
 
-	if (!IsSoundPrecached(StatsSound_Hunter_Perfect))
+	if (EnableSounds_Hunter_Perfect)
 	{
 		EnableSounds_Hunter_Perfect = PrecacheSound(StatsSound_Hunter_Perfect); // Sound from a hunter perfect pounce (Death From Above)
 	}
@@ -1017,7 +1017,7 @@ public OnPluginStart()
 		EnableSounds_Hunter_Perfect = true;
 	}
 
-	if (!IsSoundPrecached(StatsSound_Tank_Bulldozer))
+	if (EnableSounds_Tank_Bulldozer)
 	{
 		EnableSounds_Tank_Bulldozer = PrecacheSound(StatsSound_Tank_Bulldozer); // Sound from a tank bulldozer
 	}
@@ -1028,7 +1028,7 @@ public OnPluginStart()
 
 	if (EngineVersion1 != Engine_Left4Dead)
 	{
-		if (!IsSoundPrecached(SOUND_CHARGER_RAM))
+		if (EnableSounds_Charger_Ram)
 		{
 			EnableSounds_Charger_Ram = PrecacheSound(SOUND_CHARGER_RAM); // Sound from a charger scattering ram
 		}
@@ -1101,10 +1101,10 @@ public OnAdminMenuReady(Handle:TopMenu)
 	RankAdminMenu = TopMenu;
 
 	// Add a category to the SourceMod menu called "Player Stats"
-	AddToTopMenu(RankAdminMenu, "Player Stats", TopMenuObject_Category, ClearRankCategoryHandler, INVALID_TOPMENUOBJECT);
+	AddToTopMenu(RankAdminMenu, "玩家排名系统", TopMenuObject_Category, ClearRankCategoryHandler, INVALID_TOPMENUOBJECT);
 
 	// Get a handle for the catagory we just added so we can add items to it
-	new TopMenuObject:statscommands = FindTopMenuCategory(RankAdminMenu, "Player Stats");
+	new TopMenuObject:statscommands = FindTopMenuCategory(RankAdminMenu, "玩家排名系统");
 
 	// Don't attempt to add items to the catagory if for some reason the catagory doesn't exist
 	if (statscommands == INVALID_TOPMENUOBJECT)
@@ -1112,13 +1112,13 @@ public OnAdminMenuReady(Handle:TopMenu)
 
 	// The order that items are added to menus has no relation to the order that they appear. Items are sorted alphabetically automatically
 	// Assign the menus to global values so we can easily check what a menu is when it is chosen
-	MenuClearPlayers = AddToTopMenu(RankAdminMenu, "sm_rank_admin_clearplayers", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clearplayers", ADMFLAG_ROOT);
-	MenuClearMaps = AddToTopMenu(RankAdminMenu, "sm_rank_admin_clearallmaps", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clearallmaps", ADMFLAG_ROOT);
-	MenuClearAll = AddToTopMenu(RankAdminMenu, "sm_rank_admin_clearall", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clearall", ADMFLAG_ROOT);
-	MenuClearTimedMaps = AddToTopMenu(RankAdminMenu, "sm_rank_admin_cleartimedmaps", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_cleartimedmaps", ADMFLAG_ROOT);
-	MenuRemoveCustomMaps = AddToTopMenu(RankAdminMenu, "sm_rank_admin_removecustom", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_removecustom", ADMFLAG_ROOT);
-	MenuCleanPlayers = AddToTopMenu(RankAdminMenu, "sm_rank_admin_removeplayers", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_removeplayers", ADMFLAG_ROOT);
-	MenuClear = AddToTopMenu(RankAdminMenu, "sm_rank_admin_clear", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clear", ADMFLAG_ROOT);
+	MenuClearPlayers = AddToTopMenu(RankAdminMenu, "清除某个玩家统计记录", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clearplayers", ADMFLAG_ROOT);
+	MenuClearMaps = AddToTopMenu(RankAdminMenu, "清除所有地图统计", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clearallmaps", ADMFLAG_ROOT);
+	MenuClearAll = AddToTopMenu(RankAdminMenu, "清除所有", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clearall", ADMFLAG_ROOT);
+	MenuClearTimedMaps = AddToTopMenu(RankAdminMenu, "清除所有地图时间统计数据", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_cleartimedmaps", ADMFLAG_ROOT);
+	MenuRemoveCustomMaps = AddToTopMenu(RankAdminMenu, "清除自定义地图", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_removecustom", ADMFLAG_ROOT);
+	MenuCleanPlayers = AddToTopMenu(RankAdminMenu, "清除玩家数据", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_removeplayers", ADMFLAG_ROOT);
+	MenuClear = AddToTopMenu(RankAdminMenu, "管理员清除", TopMenuObject_Item, ClearRankTopItemHandler, statscommands, "sm_rank_admin_clear", ADMFLAG_ROOT);
 }
 
 public OnLibraryRemoved(const String:name[])
@@ -1132,21 +1132,21 @@ public OnLibraryRemoved(const String:name[])
 public ClearRankCategoryHandler(Handle:topmenu, TopMenuAction:action, TopMenuObject:object_id, client, String:buffer[], maxlength)
 {
 	if (action == TopMenuAction_DisplayOption)
-		Format(buffer, maxlength, "Player Stats");
+		Format(buffer, maxlength, "玩家排名系统");
 	else if (action == TopMenuAction_DisplayTitle)
-		Format(buffer, maxlength, "Player Stats:");
+		Format(buffer, maxlength, "玩家排名系统");
 }
 
 public Action:Menu_CreateClearMenu(client, args)
 {
 	new Handle:menu = CreateMenu(Menu_CreateClearMenuHandler);
 
-	SetMenuTitle(menu, "Clear:");
+	SetMenuTitle(menu, "清除:");
 	SetMenuExitBackButton(menu, true);
 	SetMenuExitButton(menu, true);
 
-	AddMenuItem(menu, "cps", "Clear stats from currently playing player...");
-	AddMenuItem(menu, "ctm", "Clear timed maps...");
+	AddMenuItem(menu, "cps", "清除正在游玩玩家的记录");
+	AddMenuItem(menu, "ctm", "清除已记录的地图时间数据");
 
 	DisplayMenu(menu, client, 30);
 
@@ -1187,15 +1187,15 @@ public Action:Menu_CreateClearTMMenu(client, args)
 {
 	new Handle:menu = CreateMenu(Menu_CreateClearTMMenuHandler);
 
-	SetMenuTitle(menu, "Clear Timed Maps:");
+	SetMenuTitle(menu, "清除已记录的地图:");
 	SetMenuExitBackButton(menu, true);
 	SetMenuExitButton(menu, true);
 
-	AddMenuItem(menu, "ctma",  "All");
-	AddMenuItem(menu, "ctmc",  "Coop");
-	AddMenuItem(menu, "ctmsu", "Survival");
-	AddMenuItem(menu, "ctmr",  "Realism");
-	AddMenuItem(menu, "ctmm",  "Mutations");
+	AddMenuItem(menu, "ctma",  "A所有");
+	AddMenuItem(menu, "ctmc",  "战役");
+	AddMenuItem(menu, "ctmsu", "生存");
+	AddMenuItem(menu, "ctmr",  "写实");
+	AddMenuItem(menu, "ctmm",  "突变");
 
 	DisplayMenu(menu, client, 30);
 
@@ -1212,23 +1212,23 @@ public Menu_CreateClearTMMenuHandler(Handle:menu, MenuAction:action, param1, par
 			{
 				case 0:
 				{
-					DisplayYesNoPanel(param1, "Do you really want to clear all map timings?", ClearTMAllPanelHandler);
+					DisplayYesNoPanel(param1, "你想清除地图记录数据统计吗?", ClearTMAllPanelHandler);
 				}
 				case 1:
 				{
-					DisplayYesNoPanel(param1, "Do you really want to clear all Coop map timings?", ClearTMCoopPanelHandler);
+					DisplayYesNoPanel(param1, "你想清除所有战役游戏模式的地图记录统计吗?", ClearTMCoopPanelHandler);
 				}
 				case 2:
 				{
-					DisplayYesNoPanel(param1, "Do you really want to clear all Survival map timings?", ClearTMSurvivalPanelHandler);
+					DisplayYesNoPanel(param1, "你想清除所有生存的地图记录统计吗?", ClearTMSurvivalPanelHandler);
 				}
 				case 3:
 				{
-					DisplayYesNoPanel(param1, "Do you really want to clear all Realism map timings?", ClearTMRealismPanelHandler);
+					DisplayYesNoPanel(param1, "你想清除所有写实游戏模式的地图记录统计吗?", ClearTMRealismPanelHandler);
 				}
 				case 4:
 				{
-					DisplayYesNoPanel(param1, "Do you really want to clear all Mutations map timings?", ClearTMMutationsPanelHandler);
+					DisplayYesNoPanel(param1, "你想清除所有突变游戏模式的地图记录统计吗?", ClearTMMutationsPanelHandler);
 				}
 			}
 		}
@@ -1254,31 +1254,31 @@ public ClearRankTopItemHandler(Handle:topmenu, TopMenuAction:action, TopMenuObje
 	{
 		if (object_id == MenuClearPlayers)
 		{
-			Format(buffer, maxlength, "Clear players");
+			Format(buffer, maxlength, "清除玩家");
 		}
 		else if (object_id == MenuClearMaps)
 		{
-			Format(buffer, maxlength, "Clear maps");
+			Format(buffer, maxlength, "清除地图");
 		}
 		else if (object_id == MenuClearAll)
 		{
-			Format(buffer, maxlength, "Clear all");
+			Format(buffer, maxlength, "清除所有");
 		}
 		else if (object_id == MenuClearTimedMaps)
 		{
-			Format(buffer, maxlength, "Clear timed maps");
+			Format(buffer, maxlength, "清除已经记录的时间");
 		}
 		else if (object_id == MenuRemoveCustomMaps)
 		{
-			Format(buffer, maxlength, "Remove custom maps");
+			Format(buffer, maxlength, "移除三方地图统计");
 		}
 		else if (object_id == MenuCleanPlayers)
 		{
-			Format(buffer, maxlength, "Clean players");
+			Format(buffer, maxlength, "清除玩家");
 		}
 		else if (object_id == MenuClear)
 		{
-			Format(buffer, maxlength, "Clear...");
+			Format(buffer, maxlength, "更多");
 		}
 	}
 
@@ -1287,27 +1287,27 @@ public ClearRankTopItemHandler(Handle:topmenu, TopMenuAction:action, TopMenuObje
 	{
 		if (object_id == MenuClearPlayers)
 		{
-			DisplayYesNoPanel(client, "Do you really want to clear the player stats?", ClearPlayersPanelHandler);
+			DisplayYesNoPanel(client, "你真的想清除这个玩家的玩家记录吗?", ClearPlayersPanelHandler);
 		}
 		else if (object_id == MenuClearMaps)
 		{
-			DisplayYesNoPanel(client, "Do you really want to clear the map stats?", ClearMapsPanelHandler);
+			DisplayYesNoPanel(client, "你真的想清除这个玩家的所有地图的统计记录吗?", ClearMapsPanelHandler);
 		}
 		else if (object_id == MenuClearAll)
 		{
-			DisplayYesNoPanel(client, "Do you really want to clear all stats?", ClearAllPanelHandler);
+			DisplayYesNoPanel(client, "你真的想清除所有玩家的统计记录吗?", ClearAllPanelHandler);
 		}
 		else if (object_id == MenuClearTimedMaps)
 		{
-			DisplayYesNoPanel(client, "Do you really want to clear all map timings?", ClearTMAllPanelHandler);
+			DisplayYesNoPanel(client, "你真的想清除所有玩家的地图纪律吗?", ClearTMAllPanelHandler);
 		}
 		else if (object_id == MenuRemoveCustomMaps)
 		{
-			DisplayYesNoPanel(client, "Do you really want to remove the custom maps?", RemoveCustomMapsPanelHandler);
+			DisplayYesNoPanel(client, "你真的想去除这张三方地图的统计吗?", RemoveCustomMapsPanelHandler);
 		}
 		else if (object_id == MenuCleanPlayers)
 		{
-			DisplayYesNoPanel(client, "Do you really want to clean the player stats?", CleanPlayersPanelHandler);
+			DisplayYesNoPanel(client, "你真的想清除这名玩家的游玩记录吗?", CleanPlayersPanelHandler);
 		}
 		else if (object_id == MenuClear)
 		{
@@ -3154,12 +3154,12 @@ public Action:timer_ShowTimerScore(Handle:timer, Handle:hndl)
 			{
 				if (Mode == 1 || Mode == 2)
 				{
-					StatsPrintToChat(i, "你击杀 \x05%i \x 感染者获得\x04%i \x01分!", TimerKills[i], TimerPoints[i]);
+					StatsPrintToChat(i, "你击杀了 \x05%i \x01 个感染者获得\x04%i \x01分!", TimerKills[i], TimerPoints[i]);
 				}
 				else if (Mode == 3)
 				{
 					GetClientName(i, Name, sizeof(Name));
-					StatsPrintToChatAll("\x05%s \x01击杀 \x05%i \x 感染者获得\x04%i \x01分!", Name, TimerKills[i], TimerPoints[i]);
+					StatsPrintToChatAll("\x05%s \x01击杀了 \x05%i \x01 个感染者获得\x04%i \x01分!", Name, TimerKills[i], TimerPoints[i]);
 				}
 			}
 
@@ -3510,7 +3510,7 @@ public Action:event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 					StatsPrintToChatAll("\x05%s \x01获得 \x04%i \x01分 by 杀死了%s \x05%s\x01!", AttackerName, Score, (VictimIsBot ? " a" : ""), VictimName);
 				}
 				else
-					StatsPrintToChat(Attacker, "You 获得 \x04%i \x01分 by 杀死了%s \x05%s\x01!!", Score, (VictimIsBot ? " a" : ""), VictimName);
+					StatsPrintToChat(Attacker, "你获得 \x04%i \x01分 by 杀死了%s \x05%s\x01!!", Score, (VictimIsBot ? " a" : ""), VictimName);
 			}
 		}
 
@@ -4531,9 +4531,9 @@ PlayerIncap(Attacker, Victim)
 		SendSQLUpdate(query);
 
 		if (Mode == 1 || Mode == 2)
-			StatsPrintToChat(Attacker, "You have \x03LOST \x04%i \x01points for \x03Incapicitating \x05%s\x01!", Score, VictimName);
+			StatsPrintToChat(Attacker, "你 \x03失去了 \x04%i \x01分 by \x03黑倒了 \x05%s\x01!", Score, VictimName);
 		else if (Mode == 3)
-			StatsPrintToChatAll("\x05%s \x01has \x03LOST \x04%i \x01points for \x03Incapicitating \x05%s\x01!", AttackerName, Score, VictimName);
+			StatsPrintToChatAll("\x05%s \x01 \x03失去了\x04%i \x01分 by \x03黒倒了 \x05%s\x01!", AttackerName, Score, VictimName);
 	}
 
 	// Attacker is an Infected
@@ -4692,12 +4692,12 @@ public Action:event_PlayerLedge(Handle:event, const String:name[], bool:dontBroa
 		UpdateMapStat("points_infected", Score);
 
 		if (Mode == 1 || Mode == 2)
-			StatsPrintToChat(Attacker, "You have earned \x04%i \x01points for causing player \x05%s\x01 to grab a ledge!", Score, VictimName);
+			StatsPrintToChat(Attacker, "你获得 \x04%i \x01分 by 造成玩家 \x05%s\x01 挂边!", Score, VictimName);
 		else if (Mode == 3)
 		{
 			decl String:AttackerName[MAX_LINE_WIDTH];
 			GetClientName(Attacker, AttackerName, sizeof(AttackerName));
-			StatsPrintToChatAll("\x05%s \x01has earned \x04%i \x01points for causing player \x05%s\x01 to grab a ledge!", AttackerName, Score, VictimName);
+			StatsPrintToChatAll("\x05%s \x01获得 \x04%i \x01分 by 造成玩家 \x05%s\x01 挂边!", AttackerName, Score, VictimName);
 		}
 	}
 }
@@ -5699,9 +5699,9 @@ public Action:event_PlayerPounced(Handle:event, const String:name[], bool:dontBr
 	UpdateMapStat("points_infected", Score);
 
 	if (Mode == 1 || Mode == 2)
-		StatsPrintToChat(Attacker, "You have earned \x04%i \x01points for landing a \x05%s \x01Pounce on \x05%s\x01!", Score, Label, VictimName);
+		StatsPrintToChat(Attacker, "你获得 \x04%i \x01分 by 在\x05%s\x01完成了一个 \x05%s \x01扑倒 !", Score,VictimName, Label );
 	else if (Mode == 3)
-		StatsPrintToChatAll("\x05%s \x01has earned \x04%i \x01points for landing a \x05%s \x01Pounce on \x05%s\x01!", AttackerName, Score, Label, VictimName);
+		StatsPrintToChatAll("\x05%s \x01获得 \x04%i \x01分 by 在\x05%s\x01完成了一个 \x05%s \x01扑倒!", AttackerName, Score,  VictimName,Label);
 }
 
 // Revive friendly code.
@@ -7042,30 +7042,31 @@ public DisplayRankMenu(client)
 	SetMenuExitBackButton(menu, false);
 	SetMenuExitButton(menu, true);
 
-	AddMenuItem(menu, "排名", "Show my rank");
-	AddMenuItem(menu, "top10玩家", "Show top 10");
-	AddMenuItem(menu, "top10ppm玩家", "Show top 10 PPM");
-	AddMenuItem(menu, "更新排名", "Show my next rank");
-	AddMenuItem(menu, "显示时间", "Show current timer");
-	AddMenuItem(menu, "他人rank排名", "Show others rank");
-	AddMenuItem(menu, "他人ppm排名", "Show others PPM");
+
+	AddMenuItem(menu, "rank", "显示当前排名");
+	AddMenuItem(menu, "top10", "显示TOP10玩家");
+	AddMenuItem(menu, "top10ppm", "显示TOP10 PPM玩家");
+	AddMenuItem(menu, "nextrank", "下一名达标要求");
+	AddMenuItem(menu, "showtimer", "显示当前地图游玩时间");
+	AddMenuItem(menu, "showrank", "展示他人排名");
+	AddMenuItem(menu, "showppm", "展示他人PPM排名");
 	if (GetConVarBool(cvar_EnableRankVote) && IsTeamGamemode())
 	{
 		AddMenuItem(menu, "rankvote", "Vote for team shuffle by PPM");
 	}
-	AddMenuItem(menu, "地图时间统计", "Show all map timings");
+	AddMenuItem(menu, "timedmaps", "显示所有地图游玩时间记录");
 	if (IsSingleTeamGamemode())
 	{
-		AddMenuItem(menu, "当前地图统计", "Show current map timings");
+		AddMenuItem(menu, "maptimes", "显示当前地图游玩时间记录");
 	}
 	if (GetConVarInt(cvar_AnnounceMode))
 	{
-		AddMenuItem(menu, "插件提示设置", "Modify rank settings");
+		AddMenuItem(menu, "showsettings", "修改Rank插件提醒设置");
 	}
-	//AddMenuItem(menu, "showmaptimes", "Show others current map timings");
+	//AddMenuItem(menu, "showmaptimes", "显示他人地图的游玩时间记录");
 
-	Format(Title, sizeof(Title), "About %s", PLUGIN_NAME);
-	AddMenuItem(menu, "rank说明", Title);
+	Format(Title, sizeof(Title), "关于 %s，它由Mikko Andersson编写，由东汉化并对数值进行调整", PLUGIN_NAME);
+	AddMenuItem(menu, "Rank插件说明", Title);
 
 	DisplayMenu(menu, client, 30);
 
@@ -7496,7 +7497,7 @@ public DisplayRank(Handle:owner, Handle:hndl, const String:error[], any:client)
 	Format(Value, sizeof(Value), "每分钟获取分数: %.2f" , PPM);
 	DrawPanelText(RankPanel, Value);
 
-	Format(Value, sizeof(Value), "消灭的厨余: %i" , InfectedKilled);
+	Format(Value, sizeof(Value), "消灭的小僵尸: %i" , InfectedKilled);
 	DrawPanelText(RankPanel, Value);
 
 	Format(Value, sizeof(Value), "杀死的生还者: %i" , SurvivorsKilled);
@@ -9079,12 +9080,12 @@ public DisplayClearPanelHandler(Handle:menu, MenuAction:action, param1, param2)
 		decl String:Name[32];
 		GetClientName(client, Name, sizeof(Name));
 
-		StatsPrintToChatPreFormatted(client, "Your player stats were cleared!");
+		StatsPrintToChatPreFormatted(client, "你的游玩记录已被清除!");
 		if (client != param1)
-			StatsPrintToChat(param1, "Player \x05%s \x01stats cleared!", Name);
+			StatsPrintToChat(param1, "玩家 \x05%s \x01游玩记录清除!", Name);
 	}
 	else
-		StatsPrintToChatPreFormatted(param1, "Clearing player stats failed!");
+		StatsPrintToChatPreFormatted(param1, "清除玩家游玩记录失败!");
 }
 
 // Handler for RANKABOUT panel.
@@ -9205,7 +9206,7 @@ HunterSmokerSave(Savior, Victim, BasePoints, AdvMult, ExpertMult, String:SaveFro
 		return;
 
 	if (Mode)
-		StatsPrintToChat(Savior, "You have earned \x04%i \x01points for saving \x05%s\x01 from \x04%s\x01!", Score, VictimName, SaveFrom);
+		StatsPrintToChat(Savior, "你获得 \x04%i \x01分 by 把 \x05%s\x01 从 \x04%s\x01 里救了出来!", Score, VictimName, SaveFrom);
 
 	UpdateMapStat("points", Score);
 	AddScore(Savior, Score);
@@ -9916,8 +9917,8 @@ CheckSurvivorsAllDown()
 		SendSQLUpdate(query);
 	}
 
-	if (Mode)
-		StatsPrintToChatTeam(TEAM_SURVIVORS, "\x03所有幸存者 \x01 \x03失去了 \x04%i \x01分 by \x03全部坐牢\x01!", Score);
+	//if (Mode)
+		//StatsPrintToChatTeam(TEAM_SURVIVORS, "\x03所有幸存者 \x01 \x03失去了 \x04%i \x01分 by \x03全部坐牢\x01!", Score);
 }
 
 bool:IsClientIncapacitated(client)
@@ -10167,12 +10168,12 @@ TankDamage(Client, Damage)
 				new Mode = GetConVarInt(cvar_AnnounceMode);
 
 				if (Mode == 1 || Mode == 2)
-					StatsPrintToChat(Client, "You have earned \x04%i \x01points for Bulldozing the Survivors worth %i points of damage!", Score, TankDamageTotal);
+					StatsPrintToChat(Client, "你获得 \x04%i \x01分 by 给幸存者造成了价值 %i 分的伤害!", Score, TankDamageTotal);
 				else if (Mode == 3)
 				{
 					decl String:Name[MAX_LINE_WIDTH];
 					GetClientName(Client, Name, sizeof(Name));
-					StatsPrintToChatAll("\x05%s \x01has earned \x04%i \x01points for Bulldozing the Survivors worth %i points of damage!", Name, Score, TankDamageTotal);
+					StatsPrintToChatAll("\x05%s \x01获得 \x04%i \x01分 by 给幸存者造成了价值 %i 分的伤害!", Name, Score, TankDamageTotal);
 				}
 
 				if (EnableSounds_Tank_Bulldozer && GetConVarBool(cvar_SoundsEnabled))
@@ -10780,9 +10781,9 @@ SurvivorIncappedByInfected(Attacker, Victim, Mode = -1)
 		Mode = GetConVarInt(cvar_AnnounceMode);
 
 	if (Mode == 1 || Mode == 2)
-		StatsPrintToChat(Attacker, "You have earned \x04%i \x01points for Incapacitating \x05%s\x01!", Score, VictimName);
+		StatsPrintToChat(Attacker, "你获得 \x04%i \x01分 by 制伏了  \x05%s\x01!", Score, VictimName);
 	else if (Mode == 3)
-		StatsPrintToChatAll("\x05%s \x01has earned \x04%i \x01points for Incapacitating \x05%s\x01!", AttackerName, Score, VictimName);
+		StatsPrintToChatAll("\x05%s \x01获得 \x04%i \x01分 by 制伏了  \x05%s\x01!", AttackerName, Score, VictimName);
 }
 
 Float:GetMedkitPointReductionFactor()
@@ -10843,7 +10844,7 @@ AnnounceMedkitPenalty(Mode = -1)
 		Mode = GetConVarInt(cvar_AnnounceMode);
 
 	if (Mode)
-		StatsPrintToChatTeam(TEAM_SURVIVORS, "\x03所有幸存者 \x01现在只获得了 \x04%i% \x01的正常分数因为用了他们的 \x05%i%s 医疗包%s\x01!", RoundToNearest(ReductionFactor * 100), MedkitsUsedCounter, (MedkitsUsedCounter == 1 ? "st" : (MedkitsUsedCounter == 2 ? "nd" : (MedkitsUsedCounter == 3 ? "rd" : "th"))), (EngineVersion1 == Engine_Left4Dead ? "" : " or Defibrillator"));
+		StatsPrintToChatTeam(TEAM_SURVIVORS, "\x03所有幸存者 \x01现在只能获得正常分数的百分之 \x04%i \x01，因为用了他们的第 \x05%i 个医疗包%s\x01!", RoundToNearest(ReductionFactor * 100), MedkitsUsedCounter,  (EngineVersion1 == Engine_Left4Dead ? "" : "或电击器"));
 }
 
 GetClientInfectedType(Client)
@@ -11119,7 +11120,7 @@ public UpdateMapTimingStat(Handle:owner, Handle:hndl, const String:error[], any:
 			if (Mode)
 			{
 				SetTimeLabel(OldTime, TimeLabel, sizeof(TimeLabel));
-				StatsPrintToChat(Client, "You did not improve your best time \x04%s \x01to finish this map!", TimeLabel);
+				StatsPrintToChat(Client, "下次继续努力哦，这张图的最快完成时间 \x04%s \x01 并没有提升!", TimeLabel);
 			}
 
 			Format(query, sizeof(query), "UPDATE %stimedmaps SET plays = plays + 1, modified = NOW() WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s'", DbPrefix, MapName, GamemodeID, GameDifficulty, Mutation, ClientID);
@@ -11129,7 +11130,7 @@ public UpdateMapTimingStat(Handle:owner, Handle:hndl, const String:error[], any:
 			if (Mode)
 			{
 				SetTimeLabel(TotalTime, TimeLabel, sizeof(TimeLabel));
-				StatsPrintToChat(Client, "Your new best time to finish this map is \x04%s\x01!", TimeLabel);
+				StatsPrintToChat(Client, "牛逼，你刷新了你这张图的最快完成时间，目前是 \x04%s\x01!", TimeLabel);
 			}
 
 			Format(query, sizeof(query), "UPDATE %stimedmaps SET plays = plays + 1, time = %f, players = %i, modified = NOW() WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s'", DbPrefix, TotalTime, PlayerCounter, MapName, GamemodeID, GameDifficulty, Mutation, ClientID);
@@ -11143,7 +11144,7 @@ public UpdateMapTimingStat(Handle:owner, Handle:hndl, const String:error[], any:
 		if (Mode)
 		{
 			SetTimeLabel(TotalTime, TimeLabel, sizeof(TimeLabel));
-			StatsPrintToChat(Client, "花费了 \x04%s \x01来完成这张地图!", TimeLabel);
+			StatsPrintToChat(Client, "你花费了 \x04%s \x01来完成这张地图!", TimeLabel);
 		}
 
 		Format(query, sizeof(query), "INSERT INTO %stimedmaps (map, gamemode, difficulty, mutation, steamid, plays, time, players, modified, created) VALUES ('%s', %i, %i, '%s', '%s', 1, %f, %i, NOW(), NOW())", DbPrefix, MapName, GamemodeID, GameDifficulty, Mutation, ClientID, TotalTime, PlayerCounter);
