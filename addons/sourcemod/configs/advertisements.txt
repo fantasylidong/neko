@@ -1,0 +1,23 @@
+"Advertisements"
+{
+	"1"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}[本章节地图]: {GREEN}{CURRENTMAP} \n{LIGHTGREEN}[服务器时间]: {GREEN}{TIME24} - {DATE}"
+	}
+	"2"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}输入!dance跳跳舞解解压"
+	}
+	"3"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}可以输入!slots来调整服务器位置，如果你想超过4人游玩"
+	}
+	"4"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}本服摆烂OP 东，欢迎加入组服务器qq群：484690502 寻找小伙伴一起开黑"
+	}
+}
