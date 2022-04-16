@@ -13,7 +13,7 @@
 	"3"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}如果你想超过4人游玩，可以输入!slots来调整服务器位置"
+		"text"		"{LIGHTGREEN}如果你想超过4人游玩，可以输入!slots来调整服务器位置，如果第一个进服务器的人装了8人mod，8人以下不需要投票更改"
 	}
 	"4"
 	{
@@ -23,6 +23,11 @@
 	"5"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感刷新"
+		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感数量、刷新时间和刷新方式"
+	}
+	"6"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}!zs 自杀，可以按g键给队友包和投掷物"
 	}
 }
