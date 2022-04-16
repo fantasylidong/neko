@@ -13,11 +13,16 @@
 	"3"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}可以输入!slots来调整服务器位置，如果你想超过4人游玩"
+		"text"		"{LIGHTGREEN}如果你想超过4人游玩，可以输入!slots来调整服务器位置"
 	}
 	"4"
 	{
 		"type"		"S"
 		"text"		"{LIGHTGREEN}本服摆烂OP 东，欢迎加入组服务器qq群：484690502 寻找小伙伴一起开黑"
+	}
+	"5"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感刷新"
 	}
 }
