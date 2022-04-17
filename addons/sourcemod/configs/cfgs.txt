@@ -1,0 +1,30 @@
+"Cfgs"
+{
+	"游戏模式选择"
+	{
+		"sm_cvar mp_gamemode coop"
+		{
+			"message" "战役模式"
+		}
+		"sm_cvar mp_gamemode realism"
+		{
+			"message" "写实模式"
+		}
+		"sm_cvar mp_gamemode mutation4"
+		{
+			"message" "绝境求生模式"
+		}
+	}
+	"开关死门"
+	{
+		"sm_cvar coopmode 1"
+		{
+			"message" "开启死门"
+		}
+		"sm_cvar coopmode 0"
+		{
+			"message" "关闭死门"
+		}
+	}
+	
+}

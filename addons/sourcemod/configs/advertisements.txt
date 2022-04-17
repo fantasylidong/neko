@@ -23,7 +23,7 @@
 	"5"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感数量、刷新时间和刷新方式"
+		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感数量、刷新时间和刷新方式，输入!vote投票更改模式"
 	}
 	"6"
 	{
