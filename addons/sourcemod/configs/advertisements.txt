@@ -28,6 +28,6 @@
 	"6"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}!zs 自杀，可以按g键给队友包和投掷物"
+		"text"		"{LIGHTGREEN}!zs 自杀，!rank查看自己排名 !ch查看自己获得的称号 可以按g键给队友包和投掷物"
 	}
 }
