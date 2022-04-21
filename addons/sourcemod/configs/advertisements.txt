@@ -8,7 +8,7 @@
 	"2"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}输入!dance跳跳舞解解压"
+		"text"		"{LIGHTGREEN}欢迎来到电信多特服，本服务器组只对电信玩家友好"
 	}
 	"3"
 	{
@@ -18,7 +18,7 @@
 	"4"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}本服摆烂OP 东，欢迎加入组服务器qq群：484690502 寻找小伙伴一起开黑"
+		"text"		"{LIGHTGREEN}欢迎加入steam组和服务器qq群：484690502 寻找小伙伴一起开黑"
 	}
 	"5"
 	{
@@ -28,6 +28,11 @@
 	"6"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}!zs 自杀，!rank查看自己排名 !ch查看自己获得的称号 可以按g键给队友包和投掷物"
+		"text"		"{LIGHTGREEN}!zs 自杀，!join加入游戏 !cur查看当前进度 可以按g键给队友包和投掷物"
+	}
+	"7"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}!rank查看自己排名 !ch查看自己获得的称号 !dance跳跳舞解解压"
 	}
 }
