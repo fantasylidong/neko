@@ -4,55 +4,30 @@
 	{
 		"Offsets"
 		{
-			"GroundEntChanged"
-			{
-				"windows"	"188"
-				"linux"		"190"
-			}
-			"OnTakeDamage_Alive"
-			{
-				"windows"	"287"
-				"linux"		"288"
-			}
-			"GetMaxHealth"
-			{
-				"windows"	"126"
-				"linux"		"127"
-			}
-			"Blocked"
-			{
-				"windows"	"109"
-				"linux"		"110"
-			}
-			"Reload"
-			{
-				"windows"	"287"
-				"linux"		"288"
-			}
 			"EndTouch"
 			{
-				"windows"	"107"
-				"linux"		"108"
+				"windows"	"110"
+				"linux"		"111"
 			}
 			"FireBullets"
 			{
-				"windows"	"121"
-				"linux"		"121"
+				"windows"	"124"
+				"linux"		"124"
 			}
 			"OnTakeDamage"
 			{
-				"windows"	"69"
-				"linux"		"70"
+				"windows"	"72"
+				"linux"		"73"
 			}
 			"PreThink"
 			{
-				"windows"	"348"
-				"linux"		"349"
+				"windows"	"351"
+				"linux"		"352"
 			}
 			"PostThink"
 			{
-				"windows"	"349"
-				"linux"		"350"
+				"windows"	"352"
+				"linux"		"353"
 			}
 			"SetTransmit"
 			{
@@ -71,8 +46,8 @@
 			}
 			"StartTouch"
 			{
-				"windows"	"105"
-				"linux"		"106"
+				"windows"	"108"
+				"linux"		"109"
 			}
 			"Think"
 			{
@@ -81,48 +56,48 @@
 			}
 			"Touch"
 			{
-				"windows"	"106"
-				"linux"		"107"
+				"windows"	"109"
+				"linux"		"110"
 			}
 			"TraceAttack"
 			{
-				"windows"	"67"
-				"linux"		"68"
+				"windows"	"70"
+				"linux"		"71"
 			}
 			"Use"
 			{
-				"windows"	"104"
-				"linux"		"105"
+				"windows"	"107"
+				"linux"		"108"
 			}
 			"VPhysicsUpdate"
 			{
-				"windows"	"168"
-				"linux"		"169"
+				"windows"	"171"
+				"linux"		"172"
 			}
 			"Weapon_CanSwitchTo"
 			{
-				"windows"	"278"
-				"linux"		"279"
+				"windows"	"281"
+				"linux"		"282"
 			}
 			"Weapon_CanUse"
-			{
-				"windows"	"272"
-				"linux"		"273"
-			}
-			"Weapon_Drop"
 			{
 				"windows"	"275"
 				"linux"		"276"
 			}
-			"Weapon_Equip"
+			"Weapon_Drop"
 			{
-				"windows"	"273"
-				"linux"		"274"
+				"windows"	"278"
+				"linux"		"279"
 			}
-			"Weapon_Switch"
+			"Weapon_Equip"
 			{
 				"windows"	"276"
 				"linux"		"277"
+			}
+			"Weapon_Switch"
+			{
+				"windows"	"279"
+				"linux"		"280"
 			}
 		}
 	}
