@@ -35,4 +35,9 @@
 		"type"		"S"
 		"text"		"{LIGHTGREEN}!rank查看自己排名 !ch查看自己获得的称号 !dance跳跳舞解解压"
 	}
+	"8"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}!csm选择自己角色，建议不要选择和别人一样得角色"
+	}
 }
