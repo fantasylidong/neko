@@ -28,7 +28,7 @@
 	"6"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}!zs 自杀，!join加入游戏 !cur查看当前进度 可以按g键给队友包和投掷物"
+		"text"		"{LIGHTGREEN}!zs 自杀，!join加入游戏 !cur查看当前进度 !onammo双倍备弹 !onammo2无限备弹 可以按g键给队友包和投掷物"
 	}
 	"7"
 	{
