@@ -8,7 +8,7 @@
 	"2"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}欢迎来到电信多特服，本服务器组只对电信玩家友好"
+		"text"		"{LIGHTGREEN}欢迎来到电信战役服，本服务器组只对电信玩家友好，输入!vote投票更改模式和特感数量"
 	}
 	"3"
 	{
@@ -23,7 +23,7 @@
 	"5"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感数量、刷新时间和刷新方式，输入!vote投票更改模式"
+		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感刷新时间，刷新方式等特感属性"
 	}
 	"6"
 	{
