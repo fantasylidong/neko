@@ -23,7 +23,7 @@
 	"5"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}可以输入!tgvote调整特感刷新时间，刷新方式等特感属性"
+		"text"		"{LIGHTGREEN}服务器默认普通刷特方式，新手可以输入!tgvote调整特感刷新时间，调整刷特方式为引擎模式"
 	}
 	"6"
 	{
