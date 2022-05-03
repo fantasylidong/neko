@@ -1,0 +1,14 @@
+//Download Only (no precaching)
+addons/sourcemod/plugins/NekoSpecials.smx
+addons/sourcemod/plugins/duoteserver.smx
+addons/sourcemod/plugins/abm.smx
+addons/sourcemod/plugins/ai_boomer_new.smx
+addons/sourcemod/plugins/ai_spitter_new.smx
+addons/sourcemod/plugins/l4d_stats.smx
+addons/sourcemod/plugins/hextags.smx
+addons/sourcemod/plugins/leftdhooks.smx
+addons/sourcemod/plugins/NekoVote.smx
+addons/sourcemod/plugins/NekoServerName.smx
+addons/sourcemod/plugins/NekoAdminMenu.smx
+addons/sourcemod/plugins/slots.smx
+addons/sourcemod/configs/hextags.cfg
