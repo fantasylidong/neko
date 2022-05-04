@@ -13,7 +13,8 @@
 	}
 	
 	"Files"
-	{		
+	{	
+		"Plugin"	"Path_SM/plugins/updater_neko.smx"	
 		"Plugin"	"Path_SM/plugins/NekoSpecials.smx
 		"Plugin"	"Path_SM/plugins/duoteserver.smx
 		"Plugin"	"Path_SM/plugins/abm.smx
