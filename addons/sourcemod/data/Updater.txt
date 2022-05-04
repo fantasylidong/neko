@@ -15,18 +15,18 @@
 	"Files"
 	{	
 		"Plugin"	"Path_SM/plugins/updater_neko.smx"	
-		"Plugin"	"Path_SM/plugins/NekoSpecials.smx
-		"Plugin"	"Path_SM/plugins/duoteserver.smx
-		"Plugin"	"Path_SM/plugins/abm.smx
-		"Plugin"	"Path_SM/plugins/ai_boomer_new.smx
-		"Plugin"	"Path_SM/plugins/ai_spitter_new.smx
-		"Plugin"	"Path_SM/plugins/l4d_stats.smx
-		"Plugin"	"Path_SM/plugins/hextags.smx
-		"Plugin"	"Path_SM/plugins/leftdhooks.smx
-		"Plugin"	"Path_SM/plugins/NekoVote.smx
-		"Plugin"	"Path_SM/plugins/NekoServerName.smx
-		"Plugin"	"Path_SM/plugins/NekoAdminMenu.smx
-		"Plugin"	"Path_SM/plugins/slots.smx
-		"Plugin"	"Path_SM/configs/hextags.cfg
+		"Plugin"	"Path_SM/plugins/NekoSpecials.smx"
+		"Plugin"	"Path_SM/plugins/duoteserver.smx"
+		"Plugin"	"Path_SM/plugins/abm.smx"
+		"Plugin"	"Path_SM/plugins/ai_boomer_new.smx"
+		"Plugin"	"Path_SM/plugins/ai_spitter_new.smx"
+		"Plugin"	"Path_SM/plugins/l4d_stats.smx"
+		"Plugin"	"Path_SM/plugins/hextags.smx"
+		"Plugin"	"Path_SM/plugins/leftdhooks.smx"
+		"Plugin"	"Path_SM/plugins/NekoVote.smx"
+		"Plugin"	"Path_SM/plugins/NekoServerName.smx"
+		"Plugin"	"Path_SM/plugins/NekoAdminMenu.smx"
+		"Plugin"	"Path_SM/plugins/slots.smx"
+		"Plugin"	"Path_SM/configs/hextags.cfg"
 	}
 }
