@@ -4,17 +4,34 @@
 	{
 		"Version"
 		{
-			"Latest"	"1.3.3"
+			"Latest"	"1.0.0"
 		}
 		
-		"Notes"	"More info @ https://github.com/Teamkiller324/Updater"
+		"Notes"	"More info @ https://github.com/fantasylidong/neko"
 		"Notes"	"Removed ReloadPlugin() from updater.inc."
 		"Notes"	"Added Updater_ReloadPlugin() native to replace 'ReloadPlugin()'"
 	}
 	
 	"Files"
 	{	
-		"Plugin"	"Path_SM/plugins/updater_neko.smx"	
+		"Patch"
+		{
+			"Plugin"	"Path_SM/plugins/autoupdate_neko.smx"
+			"Plugin"	"Path_SM/plugins/NekoSpecials.smx"
+			"Plugin"	"Path_SM/plugins/duoteserver.smx"
+			"Plugin"	"Path_SM/plugins/abm.smx"
+			"Plugin"	"Path_SM/plugins/ai_boomer_new.smx"
+			"Plugin"	"Path_SM/plugins/ai_spitter_new.smx"
+			"Plugin"	"Path_SM/plugins/l4d_stats.smx"
+			"Plugin"	"Path_SM/plugins/hextags.smx"
+			"Plugin"	"Path_SM/plugins/leftdhooks.smx"
+			"Plugin"	"Path_SM/plugins/NekoVote.smx"
+			"Plugin"	"Path_SM/plugins/NekoServerName.smx"
+			"Plugin"	"Path_SM/plugins/NekoAdminMenu.smx"
+			"Plugin"	"Path_SM/plugins/slots.smx"
+			"Plugin"	"Path_SM/configs/hextags.cfg"
+		}
+		"Plugin"	"Path_SM/plugins/autoupdate_neko.smx"	
 		"Plugin"	"Path_SM/plugins/NekoSpecials.smx"
 		"Plugin"	"Path_SM/plugins/duoteserver.smx"
 		"Plugin"	"Path_SM/plugins/abm.smx"
