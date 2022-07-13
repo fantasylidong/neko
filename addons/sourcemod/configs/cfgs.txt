@@ -129,6 +129,10 @@
 		{
 			"message" "绝境求生模式"
 		}
+		"sm_cvar mp_gamemode community5"
+		{
+			"message" "死门模式"
+		}
 	}
 	"开关高级人机"
 	{
@@ -142,15 +146,16 @@
 			"message" "关闭高级人机"
 		}
 	}
-	"开关死门"
+	"插件刷特开关"
 	{
-		"sm_cvar coopmode 1"
+
+		"sm_cvar Special_PluginStatus 1"
 		{
-			"message" "开启死门"
+			"message" "开启插件刷特"
 		}
-		"sm_cvar coopmode 0"
+		"sm_cvar Special_PluginStatus 0"
 		{
-			"message" "关闭死门"
+			"message" "关闭插件刷特"
 		}
 	}
 	
