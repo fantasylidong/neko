@@ -158,5 +158,16 @@
 			"message" "关闭插件刷特"
 		}
 	}
-	
+	"商店开关[默认关闭]"
+	{
+
+		"sm_cvar shop_enable 1"
+		{
+			"message" "开启商店购买功能"
+		}
+		"sm_cvar shop_enable 0"
+		{
+			"message" "关闭商店购买功能"
+		}
+	}
 }
