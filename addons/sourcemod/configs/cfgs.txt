@@ -161,6 +161,14 @@
 		{
 			"message" "关闭插件刷特"
 		}
+		"sm_cvar rpg_allow_biggun 1"
+		{
+			"message" "开启大枪购买"
+		}
+		"sm_cvar rpg_allow_biggun 0"
+		{
+			"message" "关闭大枪购买"
+		}
 	}
 	"商店开关[默认关闭]"
 	{
