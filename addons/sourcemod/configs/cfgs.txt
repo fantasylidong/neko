@@ -129,6 +129,10 @@
 		{
 			"message" "绝境求生模式"
 		}
+		"sm_cvar mp_gamemode community1"
+		{
+			"message" "特感速递"
+		}
 		"sm_cvar mp_gamemode community5"
 		{
 			"message" "死门模式"
