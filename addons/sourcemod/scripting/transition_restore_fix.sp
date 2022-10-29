@@ -247,11 +247,11 @@ MRESReturn DD_PlayerSaveData_Restore_Pre(Address pThis, DHookParam hParams) {
 
 	Address pData;
 	char ModelName[PLATFORM_MAX_PATH];
-	GetClientModel(player, ModelName, sizeof ModelName);
 	int m_survivorCharacter = GetEntProp(player, Prop_Send, "m_survivorCharacter");
-	pData = FindBotDataByModelName(ModelName, m_survivorCharacter);
-	if (pData) {
-		if (IsFakeClient(player) || !FindPlayerDataByUserId(GetClientUserId(player))) {
+	if (IsFakeClient(player) || !FindPlayerDataByUserId(GetClientUserId(player))) {
+		GetClientModel(player, ModelName, sizeof ModelName);
+		pData = FindBotData(ModelName, m_survivorCharacter);
+		if (pData) {
 			g_pThis = pThis;
 			g_pData = LoadFromAddress(pThis, NumberType_Int32);
 			StoreToAddress(pThis, pData, NumberType_Int32);
@@ -357,7 +357,7 @@ Address FindPlayerDataByUserId(int userid) {
 
 //数据选用优先级
 //没有用过且ModelName/character相同的数据 >= 没有用过且ModelName/character不相同的数据 >= 用过且ModelName/character相同的数据 >= 用过且ModelName/character不相同的数据
-Address FindBotDataByModelName(const char[] model, int character) {
+Address FindBotData(const char[] model, int character) {
 	int count = LoadFromAddress(g_pSavedLevelRestartSurvivorBotsCount, NumberType_Int32);
 	if (!count)
 		return Address_Null;
@@ -383,7 +383,7 @@ Address FindBotDataByModelName(const char[] model, int character) {
 			al_Kv.Set(al_Kv.Push(g_aBotData.FindValue(ptr) == -1 ? (strcmp(value, model, false) == 0 ? 0 : 1) : strcmp(value, model, false) == 0 ? 2 : 3), ptr, 1);
 		}
 		else {
-			SDKCall(g_hSDK_KeyValues_GetString, ptr, value, sizeof value, "character", "");
+			SDKCall(g_hSDK_KeyValues_GetString, ptr, value, sizeof value, "character", "0");
 			al_Kv.Set(al_Kv.Push(g_aBotData.FindValue(ptr) == -1 ? (StringToInt(value) == character ? 0 : 1) : StringToInt(value) == character ? 2 : 3), ptr, 1);
 		}
 	}
