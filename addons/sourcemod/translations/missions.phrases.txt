@@ -1,171 +1,2998 @@
-"Phrases" 
-{
-	"L4D2C1"
+"Phrases" {
+"2019"
+
 	{
-		"en" "Dead Center"
+
+	"en" "十周年"
+
 	}
-	"L4D2C2"
+"2019Original"
+
 	{
-		"en" "Dark Carnival"
+
+	"en" "经典版"
+
 	}
-	"L4D2C3"
+"2evileyes"
+
 	{
-		"en" "Swamp Fever"
+
+	"en" "邪恶双眸"
+
 	}
-	"L4D2C4"
+"7HoursLaterII"
+
 	{
-		"en" "Hard Rain"
+
+	"en" "七小时以后"
+
 	}
-	"L4D2C5"
+"cavetour"
+
 	{
-		"en" "The Parish"
+
+	"en" "洞穴之旅-完整版"
+
 	}
-	"L4D2C6"
+"hopedb"
+
 	{
-		"en" "The Passing"
+
+	"en" "Hope放弃希望"
+
 	}
-	"L4D2C7"
+"adammission"
+
 	{
-		"en" "The Sacrifice"
+
+	"en" "大坝任务"
+
 	}
-	"L4D2C8"
+"Aftershock"
+
 	{
-		"en" "No Mercy"
+
+	"en" "余震"
+
 	}
-	"L4D2C9"
+"AlleyWar"
+
 	{
-		"en" "Crash Course"
+
+	"en" "巷战"
+
 	}
-	"L4D2C10"
+"L4D2AMilitaryHistory"
+
 	{
-		"en" "Death Toll"
+
+	"en" "军事工厂"
+
 	}
-	"L4D2C11"
+"APathToExit"
+
 	{
-		"en" "Dead Air"
+
+	"en" "出路"
+
 	}
-	"L4D2C12"
+"apocalypse"
+
 	{
-		"en" "Blood Harvest"
+
+	"en" "天启2"
+
 	}
-	"L4D2C13"
+"arcadia"
+
 	{
-		"en" "Cold Stream"
+
+	"en" "世外桃源"
+
 	}
-	"L4D2C14"
+"AlongTheSouth"
+
 	{
-		"en" "The Last Stand"
+
+	"en" "沿着南方"
+
 	}
-	"QuestionableEthics"
+"atthegloaming2re"
+
 	{
-		"en" "Questionable Ethics 1"
+
+	"en" "黄昏时刻2"
+
 	}
-	"QuestionableEthicsAlphaTest"
+"awaystadium"
+
 	{
-		"en" "Questionable Ethics 2"
+
+	"en" "离开球场"
+
 	}
-	"CrashBandicootTheReturn"
+"cavetour2"
+
 	{
-		"en" "CrashBandicoot 1"
+
+	"en" "洞穴之旅2-轮回"
+
 	}
-	"l4d2CrashBandicoot2"
+"backtorevenholmv5"
+
 	{
-		"en" "CrashBandicoot 2"
+
+	"en" "回到莱温霍姆"
+
 	}
-	"TanksPlayground"
+"BadNeighborhood"
+
 	{
-		"en" "Tanks Playground"
+
+	"en" "坏邻居Bad"
+
 	}
-	"WhiteForest"
+"Badwater"
+
 	{
-		"en" "White Forest"
+
+	"en" "死水盆地"
+
 	}
-	"YamaMSE"
+"baltic"
+
 	{
-		"en" "Yama"
+
+	"en" "波罗的海故事"
+
 	}
-	"ddntr1"
+"BaysideGenocide"
+
 	{
-		"en" "Deadenator"
+
+	"en" "碧沙种族灭绝"
+
 	}
-	"Diescraper36"
+"BDU"
+
 	{
-		"en" "Diescraper"
+
+	"en" "燃烧之下"
+
 	}
-	"SaltHellPark"
+"beaver"
+
 	{
-		"en" "Salt Hell Park"
+
+	"en" "海狸之家"
+
 	}
-	"TheBloodyMoors"
+"DeadLine2"
+
 	{
-		"en" "The Bloody Moors"
+
+	"en" "新手好运"
+
 	}
-	"FarewellChenming"
+"beginninghours"
+
 	{
-		"en" "Farewell Chenming"
+
+	"en" "开始时间"
+
 	}
-	"darkwood"
+"BeginningtoCrossover"
+
 	{
-		"en" "Dark Wood"
+
+	"en" "跨越2"
+
 	}
-	"DevilMountain"
+"behind"
+
 	{
-		"en" "Devil Mountain"
+
+	"en" "别被丢下"
+
 	}
-	"fallen"
+"Beldurra"
+
 	{
-		"en" "Fallen"
+
+	"en" "恐惧"
+
 	}
-	"Cure2"
+"JTB2"
+
 	{
-		"en" "Cure 2"
+
+	"en" "恐惧2"
+
 	}
-	"deadvacation2"
+"BelowSurface"
+
 	{
-		"en" "Dead Vacation 2"
+
+	"en" "十周年"
+
 	}
-	"Derailed"
+"BeJustRoundTheCorner"
+
 	{
-		"en" "Derailed"
+
+	"en" "指日可待"
+
 	}
-	"hauntedforest"
+"bigwat"
+
 	{
-		"en" "Haunted Forest"
+
+	"en" "大瓦特"
+
 	}
-	"TheCure"
+"noechoremastered"
+
 	{
-		"en" "The Cure"
+
+	"en" "音讯全无重制版"
+
 	}
-	"2evileyes"
+"BlackMesaUndertow"
+
 	{
-		"en" "Evil Eyes"
+
+	"en" "Black Mesa_ Undertow"
+
 	}
-	"BloodTracks"
+"Blackmist"
+
 	{
-		"en" "Blood Tracks"
+
+	"en" "黑迷雾"
+
 	}
-	"drdegov21"
+"BlackoutBasement"
+
 	{
-		"en" "Drop Dead Gorges"
+
+	"en" "停电地下室"
+
 	}
-	"DeadSeries"
+"Blightmare"
+
 	{
-		"en" "Dead Series"
+
+	"en" "十周年"
+
 	}
-	"HighwayToHell"
+"bloodhospital"
+
 	{
-		"en" "Highway To Hell"
+
+	"en" "血之医院2"
+
 	}
-	"ihatemountains2"
+"bloodmoon"
+
 	{
-		"en" "I Hate Moutains 2"
+
+	"en" "血月"
+
 	}
-	"JourneyToSplashMountain"
+"BloodProof"
+
 	{
-		"en" "Journey To Splash Mountain"
+
+	"en" "血之证明"
+
 	}
-	"undeadzone"
+"BloodTracks"
+
 	{
-		"en" "Undead Zone"
+
+	"en" "血之轨迹"
+
+	}
+"bloodysunday"
+
+	{
+
+	"en" "血腥的星期天"
+
+	}
+"bot"
+
+	{
+
+	"en" "机器人"
+
+	}
+"bpls1"
+
+	{
+
+	"en" "死路"
+
+	}
+"brain4dead2"
+
+	{
+
+	"en" "Brain 4 Dead"
+
+	}
+"breaklineext"
+
+	{
+
+	"en" "断线"
+
+	}
+"bts"
+
+	{
+
+	"en" "返校"
+
+	}
+"buenosaires"
+
+	{
+
+	"en" "Cambalache - Buenos Aires"
+
+	}
+"BuriedDeep"
+
+	{
+
+	"en" "十周年"
+
+	}
+"burningdown"
+
+	{
+
+	"en" "燃烧之下"
+
+	}
+"burningnight"
+
+	{
+
+	"en" "黑迷雾"
+
+	}
+"bustasroom"
+
+	{
+
+	"en" "布斯特的2号房间"
+
+	}
+"butterflybridge"
+
+	{
+
+	"en" "南宁市-蝴蝶桥"
+
+	}
+"cavetour3"
+
+	{
+
+	"en" "洞穴之旅3-重生"
+
+	}
+"capemurder"
+
+	{
+
+	"en" "海角杀戮2"
+
+	}
+"CarriedOff"
+
+	{
+
+	"en" "绝境逢生"
+
+	}
+"castle"
+
+	{
+
+	"en" "城堡"
+
+	}
+"cavetour0"
+
+	{
+
+	"en" "洞穴前传"
+
+	}
+"ColdCase"
+
+	{
+
+	"en" "铁证悬案2018"
+
+	}
+"CedaFever"
+
+	{
+
+	"en" "CEDA狂热"
+
+	}
+"Centrifuge"
+
+	{
+
+	"en" "离心运动"
+
+	}
+"Centrifuge"
+
+	{
+
+	"en" "离心运动"
+
+	}
+"Centro"
+
+	{
+
+	"en" "市中心"
+
+	}
+"deaddestination"
+
+	{
+
+	"en" "死亡目的地"
+
+	}
+"City17l4d2"
+
+	{
+
+	"en" "城市17"
+
+	}
+"clamtoll"
+
+	{
+
+	"en" "死亡丧钟重置版"
+
+	}
+"ClassL4D"
+
+	{
+
+	"en" "班级"
+
+	}
+"claustrophobia"
+
+	{
+
+	"en" "幽闭恐惧症"
+
+	}
+"Coaldblood"
+
+	{
+
+	"en" "血腥煤矿"
+
+	}
+"coldcase"
+
+	{
+
+	"en" "铁证悬案2018"
+
+	}
+"coldfear2"
+
+	{
+
+	"en" "不寒而栗2"
+
+	}
+"ColdStreamNight"
+
+	{
+
+	"en" "寒溪刺骨夜晚版"
+
+	}
+"complexcourseR"
+
+	{
+
+	"en" "复杂过程"
+
+	}
+"con2"
+
+	{
+
+	"en" "Campaign confusion2"
+
+	}
+"ConditionStranDead"
+
+	{
+
+	"en" "死亡条件"
+
+	}
+"confused2re"
+
+	{
+
+	"en" "幻象v1.2"
+
+	}
+"contraz"
+
+	{
+
+	"en" "魂斗罗"
+
+	}
+"countryroadsnc"
+
+	{
+
+	"en" "乡村公路(固定)V3.7"
+
+	}
+"crashbandicoot"
+
+	{
+
+	"en" "坠机险途课程2"
+
+	}
+"CrashBandicootL4D2"
+
+	{
+
+	"en" "古惑狼2"
+
+	}
+"crashking667"
+
+	{
+
+	"en" "国王的归来"
+
+	}
+"crescendo"
+
+	{
+
+	"en" "激情碰撞"
+
+	}
+"CrossingOver"
+
+	{
+
+	"en" "跨越2"
+
+	}
+"CrunchTime"
+
+	{
+
+	"en" "嘎吱时间"
+
+	}
+"Cure2"
+
+	{
+
+	"en" "治愈2"
+
+	}
+"thelostisland"
+
+	{
+
+	"en" "失落岛屿"
+
+	}
+"cursedandbabbling"
+
+	{
+
+	"en" "诅咒和唠叨"
+
+	}
+"CursedCity"
+
+	{
+
+	"en" "诅咒和唠叨"
+
+	}
+"CursedWorld"
+
+	{
+
+	"en" "十周年"
+
+	}
+"damitcomplete"
+
+	{
+
+	"en" "大坝完成"
+
+	}
+"darkblood2"
+
+	{
+
+	"en" "黑血2"
+
+	}
+"darkwood"
+
+	{
+
+	"en" "阴暗森林"
+
+	}
+"SkippingClass"
+
+	{
+
+	"en" "逃课"
+
+	}
+"DayBreak"
+
+	{
+
+	"en" "黎明"
+
+	}
+"DaysRepeat"
+
+	{
+
+	"en" "十周年"
+
+	}
+"dbd2dc"
+
+	{
+
+	"en" "活死人黎明_导演版"
+
+	}
+"dbdextended"
+
+	{
+
+	"en" "死亡领域"
+
+	}
+"drdegov21"
+
+	{
+
+	"en" "暴毙峡谷"
+
+	}
+"DeadbeatEscape"
+
+	{
+
+	"en" "无缝逃离"
+
+	}
+"DeadCity2"
+
+	{
+
+	"en" "死城2"
+
+	}
+"ddntr1"
+
+	{
+
+	"en" "死亡陷阱"
+
+	}
+"DeadEnd"
+
+	{
+
+	"en" "此路不通"
+
+	}
+"DeadLine2"
+
+	{
+
+	"en" "燃烧之下"
+
+	}
+"DeadlyDiner"
+
+	{
+
+	"en" "致命餐"
+
+	}
+"deadmilitary2"
+
+	{
+
+	"en" "Dead Military 2"
+
+	}
+"deadrun"
+
+	{
+
+	"en" "死亡狂奔(固定)"
+
+	}
+"DeadSeries"
+
+	{
+
+	"en" "连续死亡"
+
+	}
+"deadspace"
+
+	{
+
+	"en" "死亡空间"
+
+	}
+"deadvillage"
+
+	{
+
+	"en" "死亡二号街"
+
+	}
+"DeadStreet2"
+
+	{
+
+	"en" "死路2"
+
+	}
+"DeadCountyVersionTwo"
+
+	{
+
+	"en" "Dead County V2"
+
+	}
+"deadvacation"
+
+	{
+
+	"en" "死亡度假"
+
+	}
+"DeadVacationL4D2"
+
+	{
+
+	"en" "死亡度假"
+
+	}
+"deadworld"
+
+	{
+
+	"en" "死亡世界"
+
+	}
+"deadfog"
+
+	{
+
+	"en" "回到莱温霍姆"
+
+	}
+"Deathhour"
+
+	{
+
+	"en" "死亡时间"
+
+	}
+"DeadJailnormalName"
+
+	{
+
+	"en" "死亡监狱"
+
+	}
+"deathaboard2"
+
+	{
+
+	"en" "幽灵船2"
+
+	}
+"deathisland"
+
+	{
+
+	"en" "死亡岛改造"
+
+	}
+"DeathMountain"
+
+	{
+
+	"en" "死亡山谷"
+
+	}
+"deathSentence"
+
+	{
+
+	"en" "死刑"
+
+	}
+"deathsummer"
+
+	{
+
+	"en" "死亡之夏"
+
+	}
+"deathtoilet"
+
+	{
+
+	"en" "死亡厕所迷宫3.0"
+
+	}
+"LBDTM"
+
+	{
+
+	"en" "死亡厕所迷宫3.0"
+
+	}
+"DeathTollDaytimeL4D2"
+
+	{
+
+	"en" "Death Toll Daytime"
+
+	}
+"deathtrip"
+
+	{
+
+	"en" "死亡之旅"
+
+	}
+"DeepPhobia"
+
+	{
+
+	"en" "深邃恐惧症"
+
+	}
+"defend"
+
+	{
+
+	"en" "城堡"
+
+	}
+"derailed"
+
+	{
+
+	"en" "脱轨"
+
+	}
+"derailed2"
+
+	{
+
+	"en" "脱轨2"
+
+	}
+"destdevilmtn"
+
+	{
+
+	"en" "魔鬼山目的地"
+
+	}
+"detourahead"
+
+	{
+
+	"en" "迂回前进"
+
+	}
+"DevilMountain"
+
+	{
+
+	"en" "魔鬼山目的地"
+
+	}
+"DeathhourNonHardcore"
+
+	{
+
+	"en" "死亡时间"
+
+	}
+"dscream"
+
+	{
+
+	"en" "死亡尖叫2"
+
+	}
+"DieTrying"
+
+	{
+
+	"en" "审判"
+
+	}
+"Suburbs"
+
+	{
+
+	"en" "十周年"
+
+	}
+"thedividestory"
+
+	{
+
+	"en" "最后时刻"
+
+	}
+"DarkCarnivalRemix"
+
+	{
+
+	"en" "黑色狂欢节改版"
+
+	}
+"Dniepr"
+
+	{
+
+	"en" "十周年"
+
+	}
+"Downpour"
+
+	{
+
+	"en" "暴风骤雨_暴雨"
+
+	}
+"Draxmap2"
+
+	{
+
+	"en" "死亡地带"
+
+	}
+"drmalroy"
+
+	{
+
+	"en" "M博士实验室"
+
+	}
+"drmalroysabsolution"
+
+	{
+
+	"en" "Dr. Malroy's Absolution"
+
+	}
+"DrowningHope"
+
+	{
+
+	"en" "七小时以后"
+
+	}
+"DT1TheGunslinger"
+
+	{
+
+	"en" "黑暗之塔枪手"
+
+	}
+"DT1TheGunslinger"
+
+	{
+
+	"en" "黑暗之塔枪手"
+
+	}
+"EarTaters"
+
+	{
+
+	"en" "EarTaters by  Goanna"
+
+	}
+"echo"
+
+	{
+
+	"en" "回响2固定"
+
+	}
+"xxxEchoxxx"
+
+	{
+
+	"en" "撤离疾病应急中心"
+
+	}
+"EchoOriginal"
+
+	{
+
+	"en" "回响2固定"
+
+	}
+"ElectionHell"
+
+	{
+
+	"en" "地狱选举"
+
+	}
+"Escansion"
+
+	{
+
+	"en" "韵律"
+
+	}
+"escapefromnowherewf"
+
+	{
+
+	"en" "无处逃脱"
+
+	}
+"escapetorolite"
+
+	{
+
+	"en" "逃离多伦多：重访"
+
+	}
+"escdevilschapel"
+
+	{
+
+	"en" "逃离魔鬼教堂"
+
+	}
+"escfromtoronto"
+
+	{
+
+	"en" "逃离多伦多"
+
+	}
+"escfromtorontonn"
+
+	{
+
+	"en" "逃离多伦多_固定"
+
+	}
+"esctimelordsinferno"
+
+	{
+
+	"en" "Escape Timelords Inferno"
+
+	}
+"ExemptOrange"
+
+	{
+
+	"en" "橙色豁免"
+
+	}
+"Facility13"
+
+	{
+
+	"en" "设施13"
+
+	}
+"Fadeorange2"
+
+	{
+
+	"en" "虚假橙光2"
+
+	}
+"Fake"
+
+	{
+
+	"en" "伪造"
+
+	}
+"fallenport"
+
+	{
+
+	"en" "堕落"
+
+	}
+"fallindeath"
+
+	{
+
+	"en" "死亡Fall in Death"
+
+	}
+"FalloutTwilight"
+
+	{
+
+	"en" "微晨暮光"
+
+	}
+"TrueFangShi"
+
+	{
+
+	"en" "方氏"
+
+	}
+"FarewellChenming"
+
+	{
+
+	"en" "再见吧晨茗"
+
+	}
+"FatalFreight"
+
+	{
+
+	"en" "致命货运站"
+
+	}
+"FinalSalvationDemo"
+
+	{
+
+	"en" "最后的救赎"
+
+	}
+"FiretowerTrail"
+
+	{
+
+	"en" "消防瞭望塔的线索"
+
+	}
+"fnaf1"
+
+	{
+
+	"en" "十周年"
+
+	}
+"FNAF3"
+
+	{
+
+	"en" "玩具熊的五夜后宫：恐怖的吸引力"
+
+	}
+"ForgottenMist"
+
+	{
+
+	"en" "被遗忘的迷雾"
+
+	}
+"fortnoesis"
+
+	{
+
+	"en" "理性壁垒"
+
+	}
+"fos"
+
+	{
+
+	"en" "生还之锋 "
+
+	}
+"fosremake"
+
+	{
+
+	"en" "生还之锋_重制版"
+
+	}
+"Prison"
+
+	{
+
+	"en" "越狱"
+
+	}
+"cfreepassageagurt"
+
+	{
+
+	"en" "自由通行"
+
+	}
+"freezerburn"
+
+	{
+
+	"en" "冰与火"
+
+	}
+"FreezingKHMC"
+
+	{
+
+	"en" "冰点"
+
+	}
+"Frozen"
+
+	{
+
+	"en" "冻结-固定"
+
+	}
+"GasFever"
+
+	{
+
+	"en" "瓦斯狂热"
+
+	}
+"DeadGetway"
+
+	{
+
+	"en" "死亡逃离"
+
+	}
+"GettingOut"
+
+	{
+
+	"en" "血之证明"
+
+	}
+"Glubtastic"
+
+	{
+
+	"en" "忧郁1"
+
+	}
+"Glubtastic2"
+
+	{
+
+	"en" "忧郁2"
+
+	}
+"Glubtastic3"
+
+	{
+
+	"en" "忧郁3"
+
+	}
+"Glubtastic4"
+
+	{
+
+	"en" "忧郁4"
+
+	}
+"GoingBallistic"
+
+	{
+
+	"en" "准备发射"
+
+	}
+"goldeneye4dead"
+
+	{
+
+	"en" "黄金眼固定"
+
+	}
+"goodbyenanning"
+
+	{
+
+	"en" "再见了 南宁"
+
+	}
+"Greyscale"
+
+	{
+
+	"en" "灰色"
+
+	}
+"h3c6"
+
+	{
+
+	"en" "巴比伦的囚徒"
+
+	}
+"h3c6v2"
+
+	{
+
+	"en" "巴比伦的囚徒_重制版"
+
+	}
+"hallowsend"
+
+	{
+
+	"en" "万圣节结束_骑士的愤怒"
+
+	}
+"L4D2C4norain2"
+
+	{
+
+	"en" "No Rain"
+
+	}
+"HardRainLegoTown"
+
+	{
+
+	"en" "暴风骤雨乐高版"
+
+	}
+"hauntedforest"
+
+	{
+
+	"en" "颤栗森林"
+
+	}
+"tthreehdr"
+
+	{
+
+	"en" "指环王_生存"
+
+	}
+"heavencanwait2"
+
+	{
+
+	"en" "天堂可待2"
+
+	}
+"hefei"
+
+	{
+
+	"en" "合肥市-笔架山街道"
+
+	}
+"hellstorm"
+
+	{
+
+	"en" "地狱风暴2"
+
+	}
+"Hideout2"
+
+	{
+
+	"en" "Escape Timelords Inferno"
+
+	}
+"DeadHighSchool"
+
+	{
+
+	"en" "死亡高校固定"
+
+	}
+"HighwayToHell"
+
+	{
+
+	"en" "通往地狱的道路"
+
+	}
+"Highway17L4D2"
+
+	{
+
+	"en" "半条命_17号公路"
+
+	}
+"HighwayHell"
+
+	{
+
+	"en" "通往地狱的道路"
+
+	}
+"HomeFront"
+
+	{
+
+	"en" "国土防线"
+
+	}
+"Hoodoo"
+
+	{
+
+	"en" "炸弹火车"
+
+	}
+"House"
+
+	{
+
+	"en" "归家"
+
+	}
+"ihatemountains2"
+
+	{
+
+	"en" "十周年"
+
+	}
+"ilogic"
+
+	{
+
+	"en" "死神之城"
+
+	}
+"IndianaJones"
+
+	{
+
+	"en" "印第安神庙"
+
+	}
+"infectedcity"
+
+	{
+
+	"en" "感染之城1"
+
+	}
+"infectedcity"
+
+	{
+
+	"en" "感染之城1"
+
+	}
+"IC2"
+
+	{
+
+	"en" "感染之城2"
+
+	}
+"invokedinferno"
+
+	{
+
+	"en" "Escape Timelords Inferno"
+
+	}
+"InfinityRecall"
+
+	{
+
+	"en" "无限回忆"
+
+	}
+"InnesRoadRash"
+
+	{
+
+	"en" "英尼斯路事件"
+
+	}
+"InnesRoadRash"
+
+	{
+
+	"en" "英尼斯路事件"
+
+	}
+"infectionoverdrive"
+
+	{
+
+	"en" "过度感染"
+
+	}
+"IRRXmasEd"
+
+	{
+
+	"en" "英尼斯路事件圣诞版"
+
+	}
+"jsarena2"
+
+	{
+
+	"en" "死亡地区2"
+
+	}
+"jsgone"
+
+	{
+
+	"en" "极速六十秒"
+
+	}
+"JourneyToSplashMountain"
+
+	{
+
+	"en" "飞溅山之旅"
+
+	}
+"kaoming"
+
+	{
+
+	"en" "尻名山"
+
+	}
+"kickedout"
+
+	{
+
+	"en" "踢出"
+
+	}
+"KokiriForest"
+
+	{
+
+	"en" "哥奇利森林"
+
+	}
+"L4D1MAirportAnkou5"
+
+	{
+
+	"en" "Left 4 Dead Modified_ Dead Air"
+
+	}
+"l4d1malroysabsolution"
+
+	{
+
+	"en" "Dr. Malroy's Absolution"
+
+	}
+"L4D2Unreal"
+
+	{
+
+	"en" "虚幻竞技场"
+
+	}
+"l4d2CrashBandicoot2"
+
+	{
+
+	"en" "CrashBandicoot 2"
+
+	}
+"Diescraper362"
+
+	{
+
+	"en" "喋血蜃楼"
+
+	}
+"Diescraper362VS"
+
+	{
+
+	"en" "喋血蜃楼"
+
+	}
+"One4Nine"
+
+	{
+
+	"en" "古墓亡影"
+
+	}
+"PlanBv051"
+
+	{
+
+	"en" "B计划"
+
+	}
+"PrototypeMk3"
+
+	{
+
+	"en" "原型三号"
+
+	}
+"HL2CH3"
+
+	{
+
+	"en" "半条命_水区航"
+
+	}
+"Simplicity"
+
+	{
+
+	"en" "漫画世界"
+
+	}
+"TanksPlayground"
+
+	{
+
+	"en" "坦克操场"
+
+	}
+"TankArena"
+
+	{
+
+	"en" "坦克竞技场"
+
+	}
+"TankChallenge"
+
+	{
+
+	"en" "坦克挑战赛"
+
+	}
+"TheBloodyMoors"
+
+	{
+
+	"en" "血腥摩尔人"
+
+	}
+"HL2CH4N5"
+
+	{
+
+	"en" "半条命_水区障碍"
+
+	}
+"ProjectAuburn2"
+
+	{
+
+	"en" "奥本计划2"
+
+	}
+"Lab024"
+
+	{
+
+	"en" "024实验室"
+
+	}
+"Labirinferno"
+
+	{
+
+	"en" "地狱迷宫"
+
+	}
+"lambda"
+
+	{
+
+	"en" "Lambda"
+
+	}
+"Landofoblivio"
+
+	{
+
+	"en" "遗忘之地"
+
+	}
+"LastBaktun"
+
+	{
+
+	"en" "骑师的回归5"
+
+	}
+"LastHeartBeat"
+
+	{
+
+	"en" "最后的心跳"
+
+	}
+"lasthours"
+
+	{
+
+	"en" "最后一小时"
+
+	}
+"lastride"
+
+	{
+
+	"en" "最后的骑行"
+
+	}
+"laststop"
+
+	{
+
+	"en" "终点站"
+
+	}
+"LastSummer"
+
+	{
+
+	"en" "去年夏天"
+
+	}
+"h3c6"
+
+	{
+
+	"en" "lightning city"
+
+	}
+"left4bowl"
+
+	{
+
+	"en" "木球"
+
+	}
+"left4cake2"
+
+	{
+
+	"en" "蛋糕之路2"
+
+	}
+"Left4SGC"
+
+	{
+
+	"en" "星门总部第二部分"
+
+	}
+"left4duluth17"
+
+	{
+
+	"en" "德卢斯"
+
+	}
+"leftinprypiat"
+
+	{
+
+	"en" "逃离普里皮亚季"
+
+	}
+"leftorright"
+
+	{
+
+	"en" "左或右"
+
+	}
+"LeftTurnSilentHill3"
+
+	{
+
+	"en" "静寂岭3贡品"
+
+	}
+"Lego"
+
+	{
+
+	"en" "乐高之路"
+
+	}
+"live4ever2"
+
+	{
+
+	"en" "永远活着"
+
+	}
+"Lockdown"
+
+	{
+
+	"en" "Lockdown DLC"
+
+	}
+"LongmapL4D2Alpha"
+
+	{
+
+	"en" "激情碰撞启示录官图大串烧二代"
+
+	}
+"loonypark"
+
+	{
+
+	"en" "疯狂公园"
+
+	}
+"lotrcampaign"
+
+	{
+
+	"en" "十周年"
+
+	}
+"lunarlab"
+
+	{
+
+	"en" "Dr. Malroy's Absolution"
+
+	}
+"yomimario2"
+
+	{
+
+	"en" "马里奥探险"
+
+	}
+"mottleftfordeadsbeta"
+
+	{
+
+	"en" "坦克大屠杀"
+
+	}
+"MassMaze"
+
+	{
+
+	"en" "大众迷宫"
+
+	}
+"MIC2"
+
+	{
+
+	"en" "军事工厂2"
+
+	}
+"midnightrr2"
+
+	{
+
+	"en" "午夜铁轨"
+
+	}
+"DeathAbove"
+
+	{
+
+	"en" "死亡任务"
+
+	}
+"darkwaters"
+
+	{
+
+	"en" "沿着南方"
+
+	}
+"RedCity"
+
+	{
+
+	"en" "红色城市"
+
+	}
+"DeadFlagBlues"
+
+	{
+
+	"en" "死亡旗帜2"
+
+	}
+"HarvestandTrustee"
+
+	{
+
+	"en" "收获日2收获受托人"
+
+	}
+"MPBeach"
+
+	{
+
+	"en" "重返德军总部"
+
+	}
+"MobStadium2012"
+
+	{
+
+	"en" "骑师的回归1"
+
+	}
+"Atour"
+
+	{
+
+	"en" "异世界之旅"
+
+	}
+"NaningCityXinxuStreet"
+
+	{
+
+	"en" "南宁市-西乡塘区-心圩街"
+
+	}
+"naniwacity"
+
+	{
+
+	"en" "浪速都市2"
+
+	}
+"Neverglades"
+
+	{
+
+	"en" "十周年"
+
+	}
+"NightmareHouse2"
+
+	{
+
+	"en" "噩梦之屋2"
+
+	}
+"NightPresence"
+
+	{
+
+	"en" "十周年"
+
+	}
+"nightterror"
+
+	{
+
+	"en" "夜惊2013(非原作者重制版)"
+
+	}
+"NoContiniuity"
+
+	{
+
+	"en" "十周年"
+
+	}
+"nomoreindustriesext"
+
+	{
+
+	"en" "No More Industries Ext. (Fixed) v4.7"
+
+	}
+"nopark2"
+
+	{
+
+	"en" "禁止停车"
+
+	}
+"NoWayOut"
+
+	{
+
+	"en" "没有出路"
+
+	}
+"nt2013"
+
+	{
+
+	"en" "夜惊2013(非原作者重制版)"
+
+	}
+"PlantsvsZombies"
+
+	{
+
+	"en" "植物大战僵尸"
+
+	}
+"oceanhouse"
+
+	{
+
+	"en" "海洋之家酒店"
+
+	}
+"OpenRoadICSX"
+
+	{
+
+	"en" "开放道路"
+
+	}
+"OttawaRockCity"
+
+	{
+
+	"en" "渥太华岩城"
+
+	}
+"Outbreak"
+
+	{
+
+	"en" "生化危机1爆发"
+
+	}
+"Outline"
+
+	{
+
+	"en" "跨越边境"
+
+	}
+"Overkill"
+
+	{
+
+	"en" "赶尽杀绝"
+
+	}
+"pasiri"
+
+	{
+
+	"en" "可乐之塔"
+
+	}
+"phantasmagoria"
+
+	{
+
+	"en" "十周年"
+
+	}
+"pdm"
+
+	{
+
+	"en" "漆黑的台面"
+
+	}
+"PitStopWinterRemix"
+
+	{
+
+	"en" "冬日油站"
+
+	}
+"PlagueTale"
+
+	{
+
+	"en" "十周年"
+
+	}
+"zplayground"
+
+	{
+
+	"en" "僵尸游乐场"
+
+	}
+"portal"
+
+	{
+
+	"en" "地下2号入口"
+
+	}
+"precinct84l4d2"
+
+	{
+
+	"en" "84警区(2018版)"
+
+	}
+"precinctorig"
+
+	{
+
+	"en" "84警区"
+
+	}
+"projectauburn"
+
+	{
+
+	"en" "奥本计划2"
+
+	}
+"ProjectDreams"
+
+	{
+
+	"en" "梦想计划"
+
+	}
+"QuestionableEthicsAlphaTest"
+
+	{
+
+	"en" "伦理问题2"
+
+	}
+"QuestionableEthicsCombined"
+
+	{
+
+	"en" "伦理问题_结合"
+
+	}
+"qiuming"
+
+	{
+
+	"en" "秋名市"
+
+	}
+"quedan"
+
+	{
+
+	"en" "玛雅遗址"
+
+	}
+"Quedan4xMorirOriginal"
+
+	{
+
+	"en" "玛雅遗址"
+
+	}
+"QuestionableEthics"
+
+	{
+
+	"en" "伦理问题1"
+
+	}
+"ttcity"
+
+	{
+
+	"en" "海啸城市"
+
+	}
+"rainbowtank"
+
+	{
+
+	"en" "彩虹挑战"
+
+	}
+"Ravenholm"
+
+	{
+
+	"en" "莱温霍姆"
+
+	}
+"ravenholmwar2"
+
+	{
+
+	"en" "我们不去莱温霍姆"
+
+	}
+"TheRavine"
+
+	{
+
+	"en" "Damned city 2"
+
+	}
+"re1"
+
+	{
+
+	"en" "生化危机1"
+
+	}
+"re2a"
+
+	{
+
+	"en" "生化危机2"
+
+	}
+"re2sl4d2edition"
+
+	{
+
+	"en" "Resident Evil 2 Source - L4D2 Edition"
+
+	}
+"re3mercenaries"
+
+	{
+
+	"en" "生化危机3_雇佣军"
+
+	}
+"reckoningv2"
+
+	{
+
+	"en" "航位推算"
+
+	}
+"red"
+
+	{
+
+	"en" "救赎2"
+
+	}
+"RRreform"
+
+	{
+
+	"en" "精神改革"
+
+	}
+"VagueReminders"
+
+	{
+
+	"en" "模糊记忆"
+
+	}
+"Revenge"
+
+	{
+
+	"en" "复仇_最后一章"
+
+	}
+"reversebh"
+
+	{
+
+	"en" "魔鬼山目的地"
+
+	}
+"riptide"
+
+	{
+
+	"en" "Riptide"
+
+	}
+"RMSTitanic"
+
+	{
+
+	"en" "RMS泰坦尼克号"
+
+	}
+"rkls"
+
+	{
+
+	"en" "公路杀手"
+
+	}
+"roadtof18"
+
+	{
+
+	"en" "通往F18的路"
+
+	}
+"roadtoruin"
+
+	{
+
+	"en" "绝路"
+
+	}
+"nemesis"
+
+	{
+
+	"en" "生化危机3复仇"
+
+	}
+"rotldsbs"
+
+	{
+
+	"en" "活死人归来"
+
+	}
+"SilentHillBSR"
+
+	{
+
+	"en" "寂静岭_黑阳升起"
+
+	}
+"bellbell"
+
+	{
+
+	"en" "逆向毫不留情"
+
+	}
+"RTN1"
+
+	{
+
+	"en" "十周年"
+
+	}
+"RoadToNowhere2"
+
+	{
+
+	"en" "无路可走2"
+
+	}
+"RoadToTower"
+
+	{
+
+	"en" "通往塔楼的道路"
+
+	}
+"SaltHellPark"
+
+	{
+
+	"en" "地狱盐井公园"
+
+	}
+"salvationfalls"
+
+	{
+
+	"en" "拯救降临"
+
+	}
+"Sawrunner"
+
+	{
+
+	"en" "闹鬼的地方_锯木工人"
+
+	}
+"SBTDTWO"
+
+	{
+
+	"en" "死亡包围2"
+
+	}
+"S4S"
+
+	{
+
+	"en" "安全搜索"
+
+	}
+"SECTOR74"
+
+	{
+
+	"en" "SECTOR-74_ March of the survivors"
+
+	}
+"ggsmi"
+
+	{
+
+	"en" "摩西岛的影子"
+
+	}
+"shoolf"
+
+	{
+
+	"en" "寂静岭_另一边的生活"
+
+	}
+"ShoreRescue"
+
+	{
+
+	"en" "海岸救援(Coop)"
+
+	}
+"ajsSilentFear"
+
+	{
+
+	"en" "沉默恐惧"
+
+	}
+"silesia"
+
+	{
+
+	"en" "Silesia 2"
+
+	}
+"SinEsperanza"
+
+	{
+
+	"en" "Sin Esperanza"
+
+	}
+"snowden"
+
+	{
+
+	"en" "Snow Den"
+
+	}
+"soitimelordsver"
+
+	{
+
+	"en" "感染之源"
+
+	}
+"SolemnBlackout"
+
+	{
+
+	"en" "圣光熄灭"
+
+	}
+"DDCW"
+
+	{
+
+	"en" "致命派遣"
+
+	}
+"southie"
+
+	{
+
+	"en" "最后壁垒"
+
+	}
+"SouthStreet3"
+
+	{
+
+	"en" "南街奇遇3"
+
+	}
+"SpaceJockeys"
+
+	{
+
+	"en" "骑师的回归2"
+
+	}
+"SprawlingTerror"
+
+	{
+
+	"en" "恐怖蔓延"
+
+	}
+"Stargate"
+
+	{
+
+	"en" "星际之门"
+
+	}
+"stenches"
+
+	{
+
+	"en" "战壕"
+
+	}
+"stonecold"
+
+	{
+
+	"en" "寒冰彻骨"
+
+	}
+"stormingcitadelalpha"
+
+	{
+
+	"en" "攻占城堡"
+
+	}
+"SuicideBlitzL4D1port"
+
+	{
+
+	"en" "闪电突袭一代版"
+
+	}
+"suicideblitz2"
+
+	{
+
+	"en" "自杀突袭2"
+
+	}
+"survivor"
+
+	{
+
+	"en" "七小时以后"
+
+	}
+"symbyosys"
+
+	{
+
+	"en" "合作符号_联合标志"
+
+	}
+"tacticalesp"
+
+	{
+
+	"en" "Tactical Espionage 2"
+
+	}
+"taiji"
+
+	{
+
+	"en" "太极"
+
+	}
+"TheOrange"
+
+	{
+
+	"en" "橙色"
+
+	}
+"templeruins"
+
+	{
+
+	"en" "Temple Ruins"
+
+	}
+"thebitterend"
+
+	{
+
+	"en" "苦涩的终点（固定）"
+
+	}
+"TheCure"
+
+	{
+
+	"en" "治愈"
+
+	}
+"TheCurseofLazarCastle"
+
+	{
+
+	"en" "拉扎尔城堡的诅咒"
+
+	}
+"TheHive"
+
+	{
+
+	"en" "蜂巢"
+
+	}
+"thelastvolt"
+
+	{
+
+	"en" "最后的电伏"
+
+	}
+"TheManor"
+
+	{
+
+	"en" "庄园-逃跑游戏"
+
+	}
+"ThePalaceV2"
+
+	{
+
+	"en" "宫殿"
+
+	}
+"ThePunisher"
+
+	{
+
+	"en" "惩罚者2"
+
+	}
+"TheReturnEFL"
+
+	{
+
+	"en" "回归：续集"
+
+	}
+"TheReturnOfTheJockeys"
+
+	{
+
+	"en" "骑师的回归4"
+
+	}
+"thereturn"
+
+	{
+
+	"en" "回归：续集"
+
+	}
+"Timelapse"
+
+	{
+
+	"en" "Timelapse"
+
+	}
+"Timelapse"
+
+	{
+
+	"en" "Timelapse"
+
+	}
+"TimeKHMC"
+
+	{
+
+	"en" "适时而死"
+
+	}
+"titty"
+
+	{
+
+	"en" "Titty Twister by Master Boing"
+
+	}
+"tla"
+
+	{
+
+	"en" "最后的余晖"
+
+	}
+"TokyoDark"
+
+	{
+
+	"en" "十周年"
+
+	}
+"tot"
+
+	{
+
+	"en" "恐怖之旅"
+
+	}
+"TrapsMap"
+
+	{
+
+	"en" "邪恶双眸"
+
+	}
+"TripDay"
+
+	{
+
+	"en" "旅行日"
+
+	}
+"Unattainable"
+
+	{
+
+	"en" "不可企及"
+
+	}
+"UndeadMine"
+
+	{
+
+	"en" "Undead Mine"
+
+	}
+"undeadzone"
+
+	{
+
+	"en" "亡灵区"
+
+	}
+"Under"
+
+	{
+
+	"en" "Under"
+
+	}
+"Unsdwn"
+
+	{
+
+	"en" "不死族的进攻"
+
+	}
+"DeadSchool"
+
+	{
+
+	"en" "死亡学校"
+
+	}
+"urbandisaster"
+
+	{
+
+	"en" "城市灾难"
+
+	}
+"urbanflight"
+
+	{
+
+	"en" "城市航班"
+
+	}
+"UrbanUnderground"
+
+	{
+
+	"en" "城市地下"
+
+	}
+"vanillaghosthouse"
+
+	{
+
+	"en" "香草鬼屋"
+
+	}
+"Venissia"
+
+	{
+
+	"en" "威尼斯"
+
+	}
+"VC1ub5"
+
+	{
+
+	"en" "维也纳的呼唤1"
+
+	}
+"VC2xy6"
+
+	{
+
+	"en" "维也纳的呼唤2"
+
+	}
+"wanli"
+
+	{
+
+	"en" "万里"
+
+	}
+"warcelona"
+
+	{
+
+	"en" "巴塞罗纳"
+
+	}
+"WARPCORE"
+
+	{
+
+	"en" "跃迁核心"
+
+	}
+"whispersofwinter"
+
+	{
+
+	"en" "冬天的低语"
+
+	}
+"WhiteForest"
+
+	{
+
+	"en" "白森林"
+
+	}
+"wildride"
+
+	{
+
+	"en" "Wild Ride"
+
+	}
+"wmconfidential"
+
+	{
+
+	"en" "机密行动"
+
+	}
+"WelcometoHell"
+
+	{
+
+	"en" "地狱欢迎你"
+
+	}
+"fjwwV2"
+
+	{
+
+	"en" "骑师的回归3"
+
+	}
+"YamaMSE"
+
+	{
+
+	"en" "摩耶山危机"
+
+	}
+"Zengchengone"
+
+	{
+
+	"en" "广州增城"
+
+	}
+"4xflut3S3ezxs"
+
+	{
+
+	"en" "绝对筛选"
+
+	}
+"Z3r04Bs0lut3971"
+
+	{
+
+	"en" "绝对零度"
+
+	}
+"zmb13"
+
+	{
+
+	"en" "ZMB-13"
+
+	}
+"zombieblackoutext"
+
+	{
+
+	"en" "丧尸大停电"
+
+	}
+"ZombieCaribbean"
+
+	{
+
+	"en" "加勒比僵尸"
+
 	}
 }

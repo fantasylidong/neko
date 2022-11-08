@@ -52,6 +52,10 @@
 	{
 		"chi" "刺骨寒溪"
 	}
+	"L4D2C14"
+	{
+		"chi" "最后一战"
+	}
 	"QuestionableEthics"
 	{
 		"chi" "伦理问题1"
