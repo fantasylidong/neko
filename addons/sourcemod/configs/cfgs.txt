@@ -115,6 +115,42 @@
 			"message" "28特模式"
 		}
 	}
+	"多人模式特感增加数量"
+	{
+
+		"sm_cvar Special_AddNum 1"
+		{
+			"message" "超过4人每多一个增加1个特感"
+		}
+		"sm_cvar Special_AddNum 2"
+		{
+			"message" "超过4人每多一个增加2个特感"
+		}
+		"sm_cvar Special_AddNum 3"
+		{
+			"message" "超过4人每多一个增加3个特感"
+		}
+		"sm_cvar Special_AddNum 4"
+		{
+			"message" "超过4人每多一个增加4个特感"
+		}
+		"sm_cvar Special_AddNum 5"
+		{
+			"message" "超过4人每多一个增加5个特感"
+		}
+		"sm_cvar Special_AddNum 6"
+		{
+			"message" "超过4人每多一个增加6个特感"
+		}
+		"sm_cvar Special_AddNum 7"
+		{
+			"message" "超过4人每多一个增加7个特感"
+		}
+		"sm_cvar Special_AddNum 8"
+		{
+			"message" "超过4人每多一个增加8个特感"
+		}
+	}	
 	"游戏模式选择"
 	{
 		"sm_cvar mp_gamemode coop"
