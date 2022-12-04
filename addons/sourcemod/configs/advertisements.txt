@@ -18,7 +18,7 @@
 	"4"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}欢迎加入steam组和服务器qq群：178461768 寻找小伙伴一起开黑"
+		"text"		"{LIGHTGREEN}欢迎加入steam组和服务器qq群：514280399 寻找小伙伴一起开黑"
 	}
 	"5"
 	{
