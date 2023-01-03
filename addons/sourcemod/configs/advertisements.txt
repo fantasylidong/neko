@@ -18,7 +18,7 @@
 	"4"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}欢迎加入steam组和服务器qq群：514280399 寻找小伙伴一起开黑"
+		"text"		"{LIGHTGREEN}如果不是战役模式，请输入!vote关闭插件刷特"
 	}
 	"5"
 	{
@@ -44,10 +44,5 @@
 	{
 		"type"		"S"
 		"text"		"{LIGHTGREEN}使用!csm来选择自己的角色，不要和别人一样哦"
-	}
-	"10"
-	{
-		"type"		"S"
-		"text"		"{LIGHTGREEN}如果不是正常模式，请输入!vote关闭插件刷特"
 	}
 }
