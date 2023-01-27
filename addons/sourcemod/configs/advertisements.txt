@@ -45,4 +45,9 @@
 		"type"		"S"
 		"text"		"{LIGHTGREEN}使用!csm来选择自己的角色，不要和别人一样哦"
 	}
+	"10"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}本服OP {GREEN}东{LIGHTGREEN}，欢迎加入组服务器qq群：{GREEN}226723463{LIGHTGREEN} 寻找小伙伴一起开黑"
+	}
 }
