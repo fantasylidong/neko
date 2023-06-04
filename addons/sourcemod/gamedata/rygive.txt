@@ -65,6 +65,24 @@
 				/* ? ? ? ? ? ? ? ? E8 ? ? ? ? 84 ? 75 ? 8B ? E8 ? ? ? ? C6 86 */
 			}
 
+			/* TerrorNavMesh::GetLastCheckpoint(TerrorNavMesh *__hidden this) */
+			"TerrorNavMesh::GetLastCheckpoint"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK13TerrorNavMesh17GetLastCheckpointEv"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x56\x33\x2A\x57\x85\x2A\x7E\x2A\x8B\xB1\x2A\x2A\x2A\x2A\x8B\x2A\x8B"
+				/* ? ? ? ? ? ? 56 33 ? 57 85 ? 7E ? 8B B1 ? ? ? ? 8B ? 8B */
+			}
+
+			/* Checkpoint::GetLargestArea(Checkpoint *__hidden this) */
+			"Checkpoint::GetLargestArea"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK10Checkpoint14GetLargestAreaEv"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x8B\x2A\x53\x8B\x2A\x2A\x33\x2A\x33\x2A\x89\x2A\x2A\x83"
+				/* ? ? ? ? ? ? ? 8B ? 53 8B ? ? 33 ? 33 ? 89 ? ? 83 */
+			}
+
 			"NextBotCreatePlayerBot<Smoker>"
 			{
 				"library"	"server"
