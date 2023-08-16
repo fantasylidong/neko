@@ -3,20 +3,24 @@
 	"Door_Open"
 	{
 		"en"		"{olive}[Saferoom] {white}opened by {orange}%N"
+		"chi"		"{olive}[Saferoom] {orange}%N {white}打开了安全门"
 	}
 
 	"Door_Close"
 	{
 		"en"		"{olive}[Saferoom] {white}closed by {orange}%N"
+		"chi"		"{olive}[Saferoom] {orange}%N {white}关闭了安全门"
 	}
 
 	"Door_Wait"
 	{
 		"en"		"{olive}[Saferoom] {white}door will unlock in {orange}%d {white}seconds"
+		"chi"		"{olive}[Saferoom]  {white}安全门将于 {orange}%d {white}秒后开启"
 	}
 
 	"Door_Unlocked"
 	{
 		"en"		"{olive}[Saferoom] {white}door {orange}opened"
+		"chi"		"{olive}[Saferoom] {white}安全门 {orange}开启"
 	}
 }
